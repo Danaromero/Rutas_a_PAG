@@ -65,7 +65,7 @@ class HomePage extends StatelessWidget {
 
 
 
-            title: Text(nombre,   style: TextStyle(color: Colors.black.withOpacity(0.8)),
+            title: Text(nombre,   style: TextStyle(color: Colors.black.withOpacity(2.8)),
 ),
             trailing: Icon(Icons.launch_outlined   , color: Colors.teal),
           );
