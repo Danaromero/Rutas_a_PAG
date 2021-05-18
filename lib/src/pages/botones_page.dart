@@ -7,6 +7,7 @@ class BotonesPage extends StatelessWidget {
       appBar: AppBar(
         centerTitle: true,
        title: Text('Botones', style: TextStyle(fontWeight: FontWeight.bold)),
+        backgroundColor: Colors.pink,
       ),
       body: Center(
         child: Container(
