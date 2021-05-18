@@ -14,6 +14,7 @@ class HomePage extends StatelessWidget {
     
       body: ListView(
         children: <Widget>[
+          Divider(),
  
           _crearItem(context, Icons.widgets, 'Botones', 'botones'),
           Divider(),
