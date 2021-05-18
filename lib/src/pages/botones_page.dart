@@ -15,7 +15,6 @@ class BotonesPage extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: <Widget>[
               RaisedButton(
-                color: Colors.red
                 elevation: 2,
                 focusElevation: 4,
                 hoverElevation: 4,
@@ -24,18 +23,27 @@ class BotonesPage extends StatelessWidget {
                 onPressed: () {},
                 child: Text('Hola soy RaisedButton'),
               ),
-              FlatButton(
-                onPressed: () {
-                  print('Click');
-                },
-                
-                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-                color: Colors.black,
-                child: Text(
-                  'Soy un Boton',
-                  style: TextStyle(color: Colors.white),
-                ),
-              ),
+
+
+
+              OutlinedButton(
+  style: ButtonStyle(
+    shape: MaterialStateProperty.all<OutlinedBorder>(StadiumBorder()),
+    side: MaterialStateProperty.resolveWith<BorderSide>(
+      (Set<MaterialState> states) {
+        final Color color = states.contains(MaterialState.pressed)
+          ? Colors.blue
+          : Colors.red;
+        return BorderSide(color: color, width: 2);
+      }
+    ),
+  ),
+  onPressed: () { },
+  child: Text('OutlinedButton with custom shape and border'),
+),
+
+
+
               FloatingActionButton(
                 onPressed: () {},
                 child: Icon(Icons.settings),
