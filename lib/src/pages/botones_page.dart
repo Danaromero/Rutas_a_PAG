@@ -21,23 +21,17 @@ class BotonesPage extends StatelessWidget {
                 highlightElevation: 8,
                 disabledElevation: 0,
                 onPressed: () {},
-                color: Colors.green,
-                 textColor: Colors.white,
+                color: Colors.yellow,
+                textColor: Colors.black,
                 child: Text('Hola soy RaisedButton'),
               ),
-
-
-FlatButton(
+              FlatButton(
                 child: Text('Rounded Rectangle Border'),
                 onPressed: () {},
-                shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(15)),
+                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
                 color: Colors.orange,
                 textColor: Colors.black,
               ),
-
-
-
               FloatingActionButton(
                 onPressed: () {},
                 child: Icon(Icons.settings),
