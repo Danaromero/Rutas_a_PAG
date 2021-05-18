@@ -23,10 +23,10 @@ class StackPage extends StatelessWidget {
               child: Container(
                 width: 150,
                 height: 150,
-                color: Colors.green[300],
+                color: Colors.red[300],
                 
                 child: Text(
-                  'Verde',
+                  'Rojo',
                   style: TextStyle(
                       color: Colors.white,
                       fontSize: 20
@@ -42,9 +42,9 @@ class StackPage extends StatelessWidget {
               child: Container(
                 width:150,
                 height:150,
-                color: Colors.red[400],
+                color: Colors.purple[400],
                 child: Text(
-                  'Rojo',
+                  'Morado',
                   style: TextStyle(color: Colors.white,
                   fontSize: 20),
                 ),
@@ -58,9 +58,9 @@ class StackPage extends StatelessWidget {
               child: Container(
                 width: 80,
                 height: 80,
-                color: Colors.purple[300],
+                color: Colors.yellow[300],
                 child: Text(
-                  'Morado',
+                  'Amarillo',
                   style: TextStyle(color: Colors.white,
                   fontSize: 20),
                 ),
