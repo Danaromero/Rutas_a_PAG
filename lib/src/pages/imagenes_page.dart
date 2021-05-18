@@ -12,7 +12,7 @@ class ImagenesPage extends StatelessWidget {
       ),
       body: Container(
         child: Container(
-         children: [
+         child: [
              Image.asset(
               'assets/app.gif',
             ),
