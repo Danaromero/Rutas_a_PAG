@@ -6,7 +6,9 @@ class ImagenesPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return  Scaffold(
       appBar: AppBar(
-        title: Text('Imagenes'),
+        centerTitle: true,
+        title: Text('Gifs', style: TextStyle(fontWeight: FontWeight.bold)),
+        backgroundColor: Colors.pink,
       ),
       body: Container(
         child: Container(
