@@ -26,7 +26,7 @@ class BotonesPage extends StatelessWidget {
                 child: Text('Hola soy RaisedButton'),
               ),
               FlatButton(
-                child: Text('Rounded Rectangle Border'),
+                child: Text('Soy un Boton con Bordes'),
                 onPressed: () {},
                 shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
                 color: Colors.orange,
