@@ -8,7 +8,8 @@ class HomePage extends StatelessWidget {
  
       appBar: AppBar(
         centerTitle: true,
-        title: Text('Dana Romero Widgets App'),
+        title: Text('Dana Romero Widgets App',   style: TextStyle(fontWeight: FontWeight.bold),
+),
         backgroundColor: Colors.pink,
       ),
     
