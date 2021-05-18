@@ -15,29 +15,25 @@ class BotonesPage extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: <Widget>[
 
-              FlatButton(
-  focusColor: Colors.red,
-  hoverColor: Colors.green,
-  splashColor: Colors.blue,
-  onPressed: () { },
-  child: Text('FlatButton with custom overlay colors'),
-),
-TextButton(
+              
+            ElevatedButton(
   style: ButtonStyle(
-    overlayColor: MaterialStateProperty.resolveWith<Color>(
+    backgroundColor: MaterialStateProperty.resolveWith<Color>(
       (Set<MaterialState> states) {
-        if (states.contains(MaterialState.focused))
+        if (states.contains(MaterialState.disabled))
           return Colors.red;
-        if (states.contains(MaterialState.hovered))
-            return Colors.green;
-        if (states.contains(MaterialState.pressed))
-            return Colors.blue;
+        return null; // Defer to the widget's default.
+    }),
+    foregroundColor: MaterialStateProperty.resolveWith<Color>(
+      (Set<MaterialState> states) {
+        if (states.contains(MaterialState.disabled))
+          return Colors.blue;
         return null; // Defer to the widget's default.
     }),
   ),
-  onPressed: () { },
-  child: Text('TextButton with custom overlay colors'),
-),
+  onPressed: null,
+  child: Text('ElevatedButton with custom disabled colors'),
+)
 
 
 
