@@ -60,7 +60,7 @@ class HomePage extends StatelessWidget {
 
 
             title: Text(nombre),
-            trailing: Icon(Icons.keyboard_arrow_right),
+            trailing: Icon(Icons.keyboard_arrow_right, color: Colors.blue),
           );
   }//Fin Widget _crearItem creada por el usuario
  
