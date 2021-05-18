@@ -15,10 +15,10 @@ class HomePage extends StatelessWidget {
  
           _crearItem(context, 
           
-          Icon(
+          
   Icons.widgets,
   color: Colors.blue.shade400,
-), 
+
           
           'Botones', 'botones'),
           Divider(),
