@@ -14,16 +14,21 @@ class BotonesPage extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: <Widget>[
+
               FlatButton(
                 onPressed: () {
                   print('Click');
                 },
-                color: Colors.blue,
+                
+                height: 120.0,
+                width: 120.0,
+                color: Colors.blue[50],
                 child: Text(
                   'Soy un Boton',
                   style: TextStyle(color: Colors.white),
                 ),
-              ),
+              ),//Fin Primer Boton
+
               FlatButton(
                 onPressed: () {
                   print('Click');
