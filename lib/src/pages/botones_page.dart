@@ -16,23 +16,14 @@ class BotonesPage extends StatelessWidget {
             children: <Widget>[
 
               
-            ElevatedButton(
-  style: ButtonStyle(
-    backgroundColor: MaterialStateProperty.resolveWith<Color>(
-      (Set<MaterialState> states) {
-        if (states.contains(MaterialState.disabled))
-          return Colors.red;
-        return null; // Defer to the widget's default.
-    }),
-    foregroundColor: MaterialStateProperty.resolveWith<Color>(
-      (Set<MaterialState> states) {
-        if (states.contains(MaterialState.disabled))
-          return Colors.blue;
-        return null; // Defer to the widget's default.
-    }),
-  ),
-  onPressed: null,
-  child: Text('ElevatedButton with custom disabled colors'),
+            RaisedButton(
+  elevation: 2,
+  focusElevation: 4,
+  hoverElevation: 4,
+  highlightElevation: 8,
+  disabledElevation: 0,
+  onPressed: () { },
+  child: Text('RaisedButton with custom elevations'),
 ),
 
 
