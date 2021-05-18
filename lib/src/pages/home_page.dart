@@ -56,12 +56,12 @@ class HomePage extends StatelessWidget {
             onTap: () {
               Navigator.pushNamed(context, ruta);
             },
-            leading: Icon(icon, color: Colors.blue,),
+            leading: Icon(icon, color: Colors.cyan,),
 
 
 
             title: Text(nombre),
-            trailing: Icon(Icons.launch_outlined   , color: Colors.cyan),
+            trailing: Icon(Icons.launch_outlined   , color: Colors.blue),
           );
   }//Fin Widget _crearItem creada por el usuario
  
