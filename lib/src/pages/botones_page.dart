@@ -34,21 +34,22 @@ class BotonesPage extends StatelessWidget {
               ),
               FloatingActionButton(
                 onPressed: () {},
-                child: Icon(Icons.settings),
+                child: Icon(Icons.android ),
+                color: Colors.purple,
               ),
               FlatButton(
                 onPressed: () {},
                 child: Text('OK'),
                 shape: CircleBorder(
                   side: BorderSide(
-                    color: Colors.pink,
+                    color: Colors.purple,
                   ),
                 ),
               ),
               FlatButton(
                 onPressed: () {},
                 child: Text('Hey Soy Un Boton! :D'),
-                shape: Border.all(width: 2.0, color: Colors.pink),
+                shape: Border.all(width: 2.0, color: Colors.green),
               ),
             ], //Fin Widget[]
           ), //Fin Columna
