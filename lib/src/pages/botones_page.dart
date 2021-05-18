@@ -42,14 +42,14 @@ class BotonesPage extends StatelessWidget {
                 child: Text('OK'),
                 shape: CircleBorder(
                   side: BorderSide(
-                    color: Colors.purple,
+                  backgroundColor: Colors.green,
                   ),
                 ),
               ),
               FlatButton(
                 onPressed: () {},
                 child: Text('Hey Soy Un Boton! :D'),
-                shape: Border.all(width: 2.0, color: Colors.green),
+                shape: Border.all(width: 2.0, color: Colors.purple),
               ),
             ], //Fin Widget[]
           ), //Fin Columna
