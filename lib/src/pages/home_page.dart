@@ -57,8 +57,9 @@ class HomePage extends StatelessWidget {
             onTap: () {
               Navigator.pushNamed(context, ruta);
             },
-           
-             tileColor: Colors.blue,
+
+             itemCount: 4,
+             tileColor: Colors.white10,
         selectedTileColor: Colors.greenAccent,
 
             leading: Icon(icon, color: Colors.blue,),
