@@ -22,6 +22,7 @@ class BotonesPage extends StatelessWidget {
                 disabledElevation: 0,
                 onPressed: () {},
                 color: Colors.green,
+                 textColor: Colors.white,
                 child: Text('Hola soy RaisedButton'),
               ),
 
