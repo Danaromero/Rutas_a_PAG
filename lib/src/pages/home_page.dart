@@ -13,7 +13,14 @@ class HomePage extends StatelessWidget {
       body: ListView(
         children: <Widget>[
  
-          _crearItem(context, Icons.select_all, 'Botones', 'botones'),
+          _crearItem(context, 
+          
+          Icon(
+  Icons.widgets,
+  color: Colors.blue.shade400,
+), 
+          
+          'Botones', 'botones'),
           Divider(),
  
           _crearItem(context, Icons.calendar_view_day, 'Contenedor', 'container'),
