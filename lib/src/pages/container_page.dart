@@ -18,7 +18,7 @@ class ContainerPage extends StatelessWidget {
           borderRadius: const BorderRadius.all(const Radius.circular(8)),
         ),
         margin: const EdgeInsets.all(4),
-        child: Image.asset('assets/banana.gif'),
+        child: Image.asset('assets/progra.gif'),
       ),
         ),
       ),//Fin Body
