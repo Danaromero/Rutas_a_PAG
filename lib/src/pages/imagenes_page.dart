@@ -11,15 +11,8 @@ class ImagenesPage extends StatelessWidget {
       body: Center(
         child: Container(
           child: Column(
-            children: <Widget>[
- 
-              margin: const EdgeInsets.all(4),
-        child: Image.asset('assets/progra.gif'),
-
-
-
- 
-            ],
+            margin: const EdgeInsets.all(4),
+             child: Image.asset('assets/progra.gif'),
           ),
         ),
       ),
