@@ -9,7 +9,9 @@ class AlertPage extends StatelessWidget {
     return Scaffold(
       key: key,
       appBar: AppBar(
-        title: Text('Alertas'),
+        centerTitle: true,
+        title: Text('Alertas', style: TextStyle(fontWeight: FontWeight.bold)),
+        backgroundColor: Colors.pink,
       ),
       body: Center(
         child: Column(

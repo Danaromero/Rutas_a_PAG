@@ -7,7 +7,9 @@ class FormulariosPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Formularios'),
+        centerTitle: true,
+        title: Text('Formularios', style: TextStyle(fontWeight: FontWeight.bold)),
+        backgroundColor: Colors.pink,
       ),
       body: SingleChildScrollView(
         child: Form(

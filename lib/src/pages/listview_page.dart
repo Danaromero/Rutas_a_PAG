@@ -56,7 +56,9 @@ class _ListViewPageState extends State<ListViewPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('ListView'),
+        centerTitle: true,
+        title: Text('ListView', style: TextStyle(fontWeight: FontWeight.bold)),
+        backgroundColor: Colors.pink,
       ),
       body: RefreshIndicator(
        onRefresh: obtenerNumerosR,
