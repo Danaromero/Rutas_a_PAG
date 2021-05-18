@@ -7,7 +7,9 @@ class HomePage extends StatelessWidget {
     return Scaffold(
  
       appBar: AppBar(
+        centerTitle: true,
         title: Text('Dana Romero Widgets App'),
+        backgroundColor: Colors.pink,
       ),
     
       body: ListView(
@@ -53,9 +55,7 @@ class HomePage extends StatelessWidget {
             onTap: () {
               Navigator.pushNamed(context, ruta);
             },
-            leading: Icon(icon,
-  color: Colors.blue,
-),
+            leading: Icon(icon, color: Colors.blue,),
 
 
 
