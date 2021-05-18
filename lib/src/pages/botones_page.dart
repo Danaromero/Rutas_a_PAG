@@ -30,8 +30,8 @@ FlatButton(
                 onPressed: () {},
                 shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(15)),
-                color: Colors.pink,
-                textColor: Colors.white,
+                color: Colors.orange,
+                textColor: Colors.black,
               ),
 
 
