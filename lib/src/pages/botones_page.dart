@@ -19,7 +19,7 @@ class BotonesPage extends StatelessWidget {
                 onPressed: () {
                   print('Click');
                 },
-                primary: Colors.black87,
+                color: Colors.blue,
                 minimumSize: Size(88, 36),
                 padding: EdgeInsets.symmetric(horizontal: 16.0),
                 
