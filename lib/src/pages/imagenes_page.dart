@@ -14,9 +14,9 @@ class ImagenesPage extends StatelessWidget {
         child: Container(
         child: Image.asset('assets/app.gif'),
         
-        child: Image.asset('assets/programador.gif'),
-      ),
         
+      ),
+        child: Image.asset('assets/programador.gif'),
       ),//Fin Body
     );
   }
