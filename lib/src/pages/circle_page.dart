@@ -6,7 +6,9 @@ class CirclePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Contactos'),
+        centerTitle: true,
+        title: Text('Contactos', style: TextStyle(fontWeight: FontWeight.bold)),
+        backgroundColor: Colors.pink,
       ),
       body: Container(
         child: Column(
