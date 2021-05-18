@@ -22,7 +22,7 @@ class StackPage extends StatelessWidget {
                 width: 150,
                 height: 150,
                 color: Colors.green[300],
-                borderRadius: BorderRadius.circular(15)
+                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
                 child: Text(
                   'Verde',
                   style: TextStyle(
