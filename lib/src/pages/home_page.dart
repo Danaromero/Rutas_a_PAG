@@ -17,7 +17,7 @@ class HomePage extends StatelessWidget {
         children: <Widget>[
           Divider(),
  
-          _crearItem(context, Icons.ballot_rounded , 'Mis Botones', 'botones'),
+          _crearItem(context, Icons.apps  , 'Mis Botones', 'botones'),
           Divider(),
  
           _crearItem(context, Icons.calendar_view_day, 'Contenedor', 'container'),
