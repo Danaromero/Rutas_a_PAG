@@ -8,6 +8,7 @@ class ContainerPage extends StatelessWidget {
       appBar: AppBar(
         centerTitle: true,
         title: Text('xxa', style: TextStyle(fontWeight: FontWeight.bold)),
+        backgroundColor: Colors.pink,
       ),
       body: Container(
         child: Center(
