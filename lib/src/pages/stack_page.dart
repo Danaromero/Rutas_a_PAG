@@ -22,8 +22,9 @@ class StackPage extends StatelessWidget {
                 width: 150,
                 height: 150,
                 color: Colors.green[300],
+                borderRadius: BorderRadius.circular(15)
                 child: Text(
-                  'Green',
+                  'Verde',
                   style: TextStyle(
                       color: Colors.white,
                       fontSize: 20
@@ -41,7 +42,7 @@ class StackPage extends StatelessWidget {
                 height:150,
                 color: Colors.red[400],
                 child: Text(
-                  'Red',
+                  'Rojo',
                   style: TextStyle(color: Colors.white,
                   fontSize: 20),
                 ),
@@ -57,7 +58,7 @@ class StackPage extends StatelessWidget {
                 height: 80,
                 color: Colors.purple[300],
                 child: Text(
-                  'Purple',
+                  'Morado',
                   style: TextStyle(color: Colors.white,
                   fontSize: 20),
                 ),
