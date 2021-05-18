@@ -18,7 +18,6 @@ class StackPage extends StatelessWidget {
               left: 30,
               height:250,
               width: 250,
-              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
               child: Container(
                 width: 150,
                 height: 150,
