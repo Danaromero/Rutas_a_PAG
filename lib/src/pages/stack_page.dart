@@ -42,9 +42,9 @@ class StackPage extends StatelessWidget {
               child: Container(
                 width:150,
                 height:150,
-                color: Colors.purple[400],
+                color: Colors.blue[400],
                 child: Text(
-                  'Morado',
+                  'Azul',
                   style: TextStyle(color: Colors.white,
                   fontSize: 20),
                 ),
