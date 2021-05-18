@@ -9,13 +9,13 @@ class ImagenesPage extends StatelessWidget {
         title: Text('Imagenes'),
       ),
       body: Container(
-        child: Center(
+        
           child: Container(
         
         
         child: Image.asset('assets/progra.gif'),
       ),
-        ),
+        
       ),//Fin Body
     );
   }
