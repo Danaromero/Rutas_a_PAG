@@ -15,6 +15,7 @@ class BotonesPage extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: <Widget>[
               RaisedButton(
+                color: Colors.red
                 elevation: 2,
                 focusElevation: 4,
                 hoverElevation: 4,
@@ -27,11 +28,7 @@ class BotonesPage extends StatelessWidget {
                 onPressed: () {
                   print('Click');
                 },
-                elevation: 2,
-                focusElevation: 4,
-                hoverElevation: 4,
-                highlightElevation: 8,
-                disabledElevation: 0,
+                
                 shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
                 color: Colors.black,
                 child: Text(
