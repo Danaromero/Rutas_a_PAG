@@ -58,9 +58,8 @@ class HomePage extends StatelessWidget {
               Navigator.pushNamed(context, ruta);
             },
            
-             width: 34,
-            height: 34,
-            tileColor: Colors.amber,
+             tileColor: Colors.blue,
+        selectedTileColor: Colors.greenAccent,
 
             leading: Icon(icon, color: Colors.blue,),
 
