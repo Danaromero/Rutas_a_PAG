@@ -10,7 +10,6 @@ class HomePage extends StatelessWidget {
         centerTitle: true,
         title: Text('Dana Romero Widgets App'),
         backgroundColor: Colors.green,
-        FlutterLogo(size: 10.0),
       ),
     
       body: ListView(
