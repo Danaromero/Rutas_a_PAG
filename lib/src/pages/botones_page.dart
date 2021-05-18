@@ -26,21 +26,14 @@ class BotonesPage extends StatelessWidget {
 
 
 
-              OutlinedButton(
-  style: ButtonStyle(
-    shape: MaterialStateProperty.all<OutlinedBorder>(StadiumBorder()),
-    side: MaterialStateProperty.resolveWith<BorderSide>(
-      (Set<MaterialState> states) {
-        final Color color = states.contains(MaterialState.pressed)
-          ? Colors.blue
-          : Colors.red;
-        return BorderSide(color: color, width: 2);
-      }
-    ),
-  ),
-  onPressed: () { },
-  child: Text('OutlinedButton with custom shape and border'),
-),
+              RaisedButton(
+                child: Text("Rock & Roll"),
+                onPressed: _changeText,
+                color: Colors.red,
+                textColor: Colors.yellow,
+                padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                splashColor: Colors.grey,
+              ),
 
 
 
