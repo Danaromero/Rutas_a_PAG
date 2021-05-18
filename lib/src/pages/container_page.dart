@@ -7,7 +7,7 @@ class ContainerPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: Text('xxa', style: TextStyle(fontWeight: FontWeight.bold)),
+        title: Text('Contenedor', style: TextStyle(fontWeight: FontWeight.bold)),
         backgroundColor: Colors.pink,
       ),
       body: Container(
