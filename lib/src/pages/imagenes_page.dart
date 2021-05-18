@@ -19,9 +19,7 @@ class ImagenesPage extends StatelessWidget {
  
               FadeInImage(
                 
-                image: NetworkImage('https://raw.githubusercontent.com/Danaromero/Mis_Imagenes_Romero/main/vacunas-consejos-peru.jpg'),
-                image: NetworkImage('https://raw.githubusercontent.com/Danaromero/Mis_Imagenes_Romero/main/4.jpeg'),
- 
+                image: NetworkImage('https://raw.githubusercontent.com/Danaromero/Mis_Imagenes_Romero/main/vacunas-consejos-peru.jpg'), 
               )
 
 
