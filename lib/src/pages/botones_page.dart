@@ -25,15 +25,28 @@ class BotonesPage extends StatelessWidget {
               ),
 
 
-
-              RaisedButton(
-                child: Text("Rock & Roll"),
-                onPressed: () {},
-                color: Colors.red,
-                textColor: Colors.yellow,
-                padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
-                splashColor: Colors.grey,
+RaisedButton(
+        textColor: Colors.white,
+        padding: EdgeInsets.all(0.0),
+        shape:RoundedRectangleBorder(borderRadius: BorderRadius.circular(80.0)),
+        onPressed: () {},
+        child: Container(
+          decoration: BoxDecoration(
+              gradient: LinearGradient(
+                colors: <Color>[
+                  Color(0xFF0D47A1),
+                  Color(0xFF1976D2),
+                  Color(0xFF42A5F5),
+                ],
               ),
+              borderRadius: BorderRadius.all(Radius.circular(80.0))
+          ),
+          padding: EdgeInsets.fromLTRB(20, 10, 20, 10),
+          child: Text(
+              'Click Me',
+              style: TextStyle(fontSize: 20,)
+          ),
+        ),
 
 
 
