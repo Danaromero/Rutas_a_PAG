@@ -17,7 +17,6 @@ class HomePage extends StatelessWidget {
           
           
   Icons.widgets,
-  color: Colors.blue,
 
           
           'Botones', 'botones'),
