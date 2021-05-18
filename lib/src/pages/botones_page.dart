@@ -35,14 +35,15 @@ class BotonesPage extends StatelessWidget {
               FloatingActionButton(
                 onPressed: () {},
                 child: Icon(Icons.android ),
-                color: Colors.purple,
+                backgroundColor: Colors.green,
               ),
               FlatButton(
                 onPressed: () {},
                 child: Text('OK'),
                 shape: CircleBorder(
                   side: BorderSide(
-                  backgroundColor: Colors.green,
+                  
+                  color: Colors.pink,
                   ),
                 ),
               ),
