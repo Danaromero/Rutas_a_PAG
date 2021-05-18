@@ -60,7 +60,8 @@ class HomePage extends StatelessWidget {
 
 
 
-            title: Text(nombre, style: TextStyle(fontFamily: 'Raleway'),),
+            title: Text(nombre,   style: TextStyle(fontWeight: FontWeight.bold),
+),
             trailing: Icon(Icons.launch_outlined   , color: Colors.teal),
           );
   }//Fin Widget _crearItem creada por el usuario
