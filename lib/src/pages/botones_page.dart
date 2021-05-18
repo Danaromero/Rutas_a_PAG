@@ -5,7 +5,7 @@ class BotonesPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Botones'),
+        title: Text('Botones',  style: TextStyle(fontWeight: FontWeight.bold),
       ),
       body: Center(
         child: Container(
