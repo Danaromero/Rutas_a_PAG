@@ -16,7 +16,7 @@ class ImagenesPage extends StatelessWidget {
         
         
       ),
-        child: Image.asset('assets/programador.gif'),
+        child: Image.asset('assets/programador.gif')
       ),//Fin Body
     );
   }
