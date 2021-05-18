@@ -13,13 +13,13 @@ class ContainerPage extends StatelessWidget {
       body: Container(
         child: Center(
           child: Container(
- 
-            height: 200,
-            width: 200,
-            color: Colors.green,
-            child: Center(child: Text('Hola soy un texto', style: TextStyle(color: Colors.white),)),
- 
-          ),
+        decoration: BoxDecoration(
+          border: Border.all(width: 10, color: Colors.black38),
+          borderRadius: const BorderRadius.all(const Radius.circular(8)),
+        ),
+        margin: const EdgeInsets.all(4),
+        child: Image.asset('assets/loading.gif'),
+      ),
         ),
       ),//Fin Body
     );//Fin Scaffold
