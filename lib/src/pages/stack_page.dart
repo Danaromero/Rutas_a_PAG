@@ -23,7 +23,7 @@ class StackPage extends StatelessWidget {
               child: Container(
                 width: 150,
                 height: 150,
-                color: Colors.red[300],
+                color: Colors.red[600],
                 
                 child: Text(
                   'Rojo',
