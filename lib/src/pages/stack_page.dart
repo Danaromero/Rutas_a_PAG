@@ -6,7 +6,9 @@ class StackPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Stack'),
+        centerTitle: true,
+        title: Text('Stack', style: TextStyle(fontWeight: FontWeight.bold)),
+        backgroundColor: Colors.pink,
       ),
  
       body:Container(
