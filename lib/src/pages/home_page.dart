@@ -57,6 +57,10 @@ class HomePage extends StatelessWidget {
             onTap: () {
               Navigator.pushNamed(context, ruta);
             },
+            decoration: new BoxDecoration (
+                color: Colors.red
+            ),
+
             leading: Icon(icon, color: Colors.blue,),
 
 
