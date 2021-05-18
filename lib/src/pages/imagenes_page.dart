@@ -12,7 +12,7 @@ class ImagenesPage extends StatelessWidget {
         child: Center(
           child: Container(
         
-        margin: const EdgeInsets.all(4),
+        
         child: Image.asset('assets/progra.gif'),
       ),
         ),
