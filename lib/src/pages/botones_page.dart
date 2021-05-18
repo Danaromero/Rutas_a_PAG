@@ -29,7 +29,7 @@ class BotonesPage extends StatelessWidget {
                 child: Text('Soy un Boton con Bordes'),
                 onPressed: () {},
                 shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
-                color: Colors.white24,
+                color: Colors.white70,
                 textColor: Colors.black,
               ),
               FloatingActionButton(
