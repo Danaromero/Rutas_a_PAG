@@ -16,17 +16,12 @@ class BotonesPage extends StatelessWidget {
             children: <Widget>[
 
               FlatButton(
-                onPressed: () {
-                  print('Click');
-                },
-                color: Colors.blue,
-                
-                
-                child: Text(
-                  'Soy un Boton',
-                  style: TextStyle(color: Colors.white),
-                ),
-              ),//Fin Primer Boton
+  focusColor: Colors.red,
+  hoverColor: Colors.green,
+  splashColor: Colors.blue,
+  onPressed: () { },
+  child: Text('FlatButton with custom overlay colors'),
+),
 
               FlatButton(
                 onPressed: () {
