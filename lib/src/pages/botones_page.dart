@@ -36,11 +36,24 @@ class BotonesPage extends StatelessWidget {
                 onPressed: () {},
                 child: Icon(Icons.settings),
               ),
+
+              FlatButton(
+                onPressed: () {},
+                child: Text('OK'),
+                shape: CircleBorder(
+                  side: BorderSide(
+                    color: Colors.pink,
+                  ),
+                ),
+              ),
+
+
               RaisedButton(
                 onPressed: () {},
                 color: Colors.orange,
                 child: Text('Click'),
               )
+
             ], //Fin Widget[]
           ), //Fin Columna
         ), //Fin de Container
