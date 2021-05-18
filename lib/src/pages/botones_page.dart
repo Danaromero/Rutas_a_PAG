@@ -36,7 +36,6 @@ class BotonesPage extends StatelessWidget {
                 onPressed: () {},
                 child: Icon(Icons.settings),
               ),
-
               FlatButton(
                 onPressed: () {},
                 child: Text('OK'),
@@ -46,10 +45,11 @@ class BotonesPage extends StatelessWidget {
                   ),
                 ),
               ),
-
-FlatButton(onPressed: (){}, child: Text('Soy Un Boton'),
-          shape: Border.all(width: 2.0, color: Colors.pink),),
-
+              FlatButton(
+                onPressed: () {},
+                child: Text('Hey Soy Un Boton! :D'),
+                shape: Border.all(width: 2.0, color: Colors.pink),
+              ),
             ], //Fin Widget[]
           ), //Fin Columna
         ), //Fin de Container
