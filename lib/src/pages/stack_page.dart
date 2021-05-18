@@ -58,7 +58,7 @@ class StackPage extends StatelessWidget {
               child: Container(
                 width: 80,
                 height: 80,
-                color: Colors.yellow[300],
+                color: Colors.amber,
                 child: Text(
                   'Amarillo',
                   style: TextStyle(color: Colors.white,
