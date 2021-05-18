@@ -13,13 +13,7 @@ class HomePage extends StatelessWidget {
       body: ListView(
         children: <Widget>[
  
-          _crearItem(context, 
-          
-          
-  Icons.widgets,
-
-          
-          'Botones', 'botones'),
+          _crearItem(context, Icons.widgets, 'Botones', 'botones'),
           Divider(),
  
           _crearItem(context, Icons.calendar_view_day, 'Contenedor', 'container'),
@@ -59,7 +53,13 @@ class HomePage extends StatelessWidget {
             onTap: () {
               Navigator.pushNamed(context, ruta);
             },
-            leading: Icon(icon),
+            leading: Icon(
+  icon,
+  color: Colors.blue.shade400,
+)
+
+
+
             title: Text(nombre),
             trailing: Icon(Icons.keyboard_arrow_right),
           );
