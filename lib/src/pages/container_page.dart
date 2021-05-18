@@ -6,7 +6,10 @@ class ContainerPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Contenedores'),
+        centerTitle: true,
+        title: Text('Contenedores',   style: TextStyle(fontWeight: FontWeight.bold),
+),
+        backgroundColor: Colors.pink,
       ),
       body: Container(
         child: Center(
