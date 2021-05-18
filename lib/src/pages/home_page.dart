@@ -9,7 +9,7 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         centerTitle: true,
         title: Text('Dana Romero Widgets App'),
-        backgroundColor: Colors.amber,
+        backgroundColor: Colors.pink,
       ),
     
       body: ListView(
