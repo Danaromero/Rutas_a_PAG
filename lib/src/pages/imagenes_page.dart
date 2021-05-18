@@ -11,10 +11,7 @@ class ImagenesPage extends StatelessWidget {
       body: Container(
         child: Center(
           child: Container(
-        decoration: BoxDecoration(
-          border: Border.all(width: 10, color: Colors.black38),
-          borderRadius: const BorderRadius.all(const Radius.circular(8)),
-        ),
+        
         margin: const EdgeInsets.all(4),
         child: Image.asset('assets/progra.gif'),
       ),
