@@ -9,11 +9,8 @@ class ImagenesPage extends StatelessWidget {
         title: Text('Imagenes'),
       ),
       body: Container(
-        
-          child: Container(
-        
-        
-        child: Image.asset('assets/progra.gif'),
+        child: Container(
+        child: Image.asset('assets/app.gif'),
       ),
         
       ),//Fin Body
