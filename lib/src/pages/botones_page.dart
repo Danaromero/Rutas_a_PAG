@@ -6,7 +6,7 @@ class BotonesPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-       title: Text('Botones', style: TextStyle(fontWeight: FontWeight.bold)),
+        title: Text('Botones', style: TextStyle(fontWeight: FontWeight.bold)),
         backgroundColor: Colors.pink,
       ),
       body: Center(
@@ -14,24 +14,15 @@ class BotonesPage extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: <Widget>[
-
-              
-            RaisedButton(
-  elevation: 2,
-  focusElevation: 4,
-  hoverElevation: 4,
-  highlightElevation: 8,
-  disabledElevation: 0,
-  onPressed: () { },
-  child: Text('RaisedButton with custom elevations'),
-),
-
-
-
-
-
-
-
+              RaisedButton(
+                elevation: 2,
+                focusElevation: 4,
+                hoverElevation: 4,
+                highlightElevation: 8,
+                disabledElevation: 0,
+                onPressed: () {},
+                child: Text('Hola soy RaisedButton'),
+              ),
               FlatButton(
                 onPressed: () {
                   print('Click');
@@ -52,8 +43,8 @@ class BotonesPage extends StatelessWidget {
                 color: Colors.orange,
                 child: Text('Click'),
               )
-            ],//Fin Widget[]
-          ),//Fin Columna
+            ], //Fin Widget[]
+          ), //Fin Columna
         ), //Fin de Container
       ), //Fin Body
     ); //Fin de Scaffold
