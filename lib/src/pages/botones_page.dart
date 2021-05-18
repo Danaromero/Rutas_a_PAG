@@ -30,7 +30,7 @@ class BotonesPage extends StatelessWidget {
                 onPressed: () {},
                 shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
                 color: Colors.indigo,
-                textColor: Colors.black,
+                textColor: Colors.white,
               ),
               FloatingActionButton(
                 onPressed: () {},
