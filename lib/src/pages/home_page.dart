@@ -53,10 +53,9 @@ class HomePage extends StatelessWidget {
             onTap: () {
               Navigator.pushNamed(context, ruta);
             },
-            leading: Icon(
-  icon,
-  color: Colors.blue.shade400,
-)
+            leading: Icon(icon,
+  color: Colors.blue,
+),
 
 
 
