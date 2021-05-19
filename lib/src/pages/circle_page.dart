@@ -33,7 +33,7 @@ class CirclePage extends StatelessWidget {
           width: 100,
           decoration: BoxDecoration(
             shape: BoxShape.circle,
-            image: DecorationImage(fit: BoxFit.cover, image: AssetImage('assets/perfil1.jpeg')),
+            image: DecorationImage(fit: BoxFit.cover, image: AssetImage('assets/perfil6.jpeg')),
           ),
         ),
         Padding(
@@ -41,7 +41,7 @@ class CirclePage extends StatelessWidget {
           child: Column(
             children: <Widget>[
               Text(
-                'Aurora Alvarez',
+                'Alejandra Benitez',
                 style: Theme.of(context).textTheme.subtitle2,
               ),
               SizedBox(
@@ -71,13 +71,13 @@ class CirclePage extends StatelessWidget {
           child: Column(
             children: <Widget>[
               Text(
-                '837363763736',
+                'Susana Alejandra',
                 style: Theme.of(context).textTheme.subtitle2,
               ),
               SizedBox(
                 height: 5,
               ),
-              Text('Gerardo Ramos', style: Theme.of(context).textTheme.subtitle1)
+              Text('656-4829-548', style: Theme.of(context).textTheme.subtitle1)
             ],
           ),
         )
@@ -101,13 +101,13 @@ class CirclePage extends StatelessWidget {
           child: Column(
             children: <Widget>[
               Text(
-                '837363763736',
-                style: Theme.of(context).textTheme.subtitle1,
+                'Farid Castillo',
+                style: Theme.of(context).textTheme.subtitle2,
               ),
               SizedBox(
                 height: 5,
               ),
-              Text('Gerardo Ramos', style: Theme.of(context).textTheme.subtitle2)
+              Text('656-3579-964', style: Theme.of(context).textTheme.subtitle1)
             ],
           ),
         )
@@ -131,13 +131,13 @@ class CirclePage extends StatelessWidget {
           child: Column(
             children: <Widget>[
               Text(
-                '837363763736',
-                style: Theme.of(context).textTheme.subtitle1,
+                'Evelyn Valles',
+                style: Theme.of(context).textTheme.subtitle2,
               ),
               SizedBox(
                 height: 5,
               ),
-              Text('Gerardo Ramos', style: Theme.of(context).textTheme.subtitle2)
+              Text('656-8497-625', style: Theme.of(context).textTheme.subtitle1)
             ],
           ),
         )
@@ -153,7 +153,7 @@ class CirclePage extends StatelessWidget {
           width: 100,
           decoration: BoxDecoration(
             shape: BoxShape.circle,
-            image: DecorationImage(fit: BoxFit.cover, image: AssetImage('assets/perfil1.jpeg')),
+            image: DecorationImage(fit: BoxFit.cover, image: AssetImage('assets/perfil7.jpeg')),
           ),
         ),
         Padding(
@@ -161,13 +161,13 @@ class CirclePage extends StatelessWidget {
           child: Column(
             children: <Widget>[
               Text(
-                '837363763736',
-                style: Theme.of(context).textTheme.subtitle1,
+                'Gerson Efren',
+                style: Theme.of(context).textTheme.subtitle2,
               ),
               SizedBox(
                 height: 5,
               ),
-              Text('Gerardo Ramos', style: Theme.of(context).textTheme.subtitle2)
+              Text('656-7854-957', style: Theme.of(context).textTheme.subtitle1)
             ],
           ),
         )
@@ -183,7 +183,7 @@ class CirclePage extends StatelessWidget {
           width: 100,
           decoration: BoxDecoration(
             shape: BoxShape.circle,
-            image: DecorationImage(fit: BoxFit.cover, image: AssetImage('assets/perfil6.jpeg')),
+            image: DecorationImage(fit: BoxFit.cover, image: AssetImage('assets/perfil1.jpeg')),
           ),
         ),
         Padding(
@@ -191,13 +191,13 @@ class CirclePage extends StatelessWidget {
           child: Column(
             children: <Widget>[
               Text(
-                '837363763736',
-                style: Theme.of(context).textTheme.subtitle1,
+                'Aurora Alvarez',
+                style: Theme.of(context).textTheme.subtitle2,
               ),
               SizedBox(
                 height: 5,
               ),
-              Text('Gerardo Ramos', style: Theme.of(context).textTheme.subtitle2)
+              Text('656-7465-694', style: Theme.of(context).textTheme.subtitle1)
             ],
           ),
         )
