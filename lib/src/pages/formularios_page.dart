@@ -29,7 +29,7 @@ class FormulariosPage extends StatelessWidget {
                   color: Colors.blue,
                   child: Text('Enviar', style: TextStyle(color: Colors.white),),
                 ),
-                padding: const EdgeInsets.symmetric(vertical: 10.0),
+                
 
 
  
@@ -44,12 +44,12 @@ class FormulariosPage extends StatelessWidget {
   Widget _crearInput1() {
  
     return Container(
-      padding: EdgeInsets.all(15),
+      padding: EdgeInsets.all(20),
       child: TextFormField(
         decoration: InputDecoration(
  
           labelText: 'Ingresa tu Nombre',
-                  icon: Icon(Icons.edit_rounded, color: Colors.pink),
+                  icon: Icon(Icons.account_circle_rounded , color: Colors.pink),
                   border: OutlineInputBorder(borderRadius: BorderRadius.circular(20.0)),
           hintText: 'Nombre'
  
