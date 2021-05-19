@@ -9,52 +9,66 @@ class CirclePage extends StatelessWidget {
         title: Text('Contactos'),
       ),
       body: Container(
+            child: ListView(
+              children: <Widget>[
+                _items("https://raw.githubusercontent.com/Danaromero/Mis_Imagenes_Romero/main/dada.jpg", "Disco Duro"),
+                SizedBox(height: 10.0),
+                _items("https://raw.githubusercontent.com/Danaromero/Mis_Imagenes_Romero/main/a.jpg", "Memoria USB"),
+                SizedBox(height: 10.0),
+                _items("https://raw.githubusercontent.com/Danaromero/Mis_Imagenes_Romero/main/xa.jpg", "Laptop"),
+                SizedBox(height: 10.0),
+                _items("https://raw.githubusercontent.com/Danaromero/Mis_Imagenes_Romero/main/momi.png", "Monitor"),
+                SizedBox(height: 10.0),
+                _items("https://raw.githubusercontent.com/Danaromero/Mis_Imagenes_Romero/main/camara1.png", "Camara"),
+                SizedBox(height: 10.0),
+                _items("https://raw.githubusercontent.com/Danaromero/Mis_Imagenes_Romero/main/bocina1.png", "Bocina"),
+                SizedBox(height: 10.0),
+                _items("https://raw.githubusercontent.com/Danaromero/Mis_Imagenes_Romero/main/audifonos.jpg", "Audifonos"),
+                SizedBox(height: 10.0),
+                _items("https://raw.githubusercontent.com/Danaromero/Mis_Imagenes_Romero/main/mouse.jpg", "Mouse"),
+                SizedBox(height: 10.0),
+                _items("https://raw.githubusercontent.com/Danaromero/Mis_Imagenes_Romero/main/impresora.jpg", "Impresora"),
+                SizedBox(height: 10.0),
+                _items("https://raw.githubusercontent.com/Danaromero/Mis_Imagenes_Romero/main/memoria.jpg", "Memoria RAM"),
+                SizedBox(height: 10.0),
+                _items("https://raw.githubusercontent.com/Danaromero/Mis_Imagenes_Romero/main/cpu.png", "CPU"),
+                SizedBox(height: 10.0),
+                 _items("https://raw.githubusercontent.com/Danaromero/Mis_Imagenes_Romero/main/dana.jpg", "Dana"),
+                SizedBox(height: 10.0),
+              ], //Fin Widget[]
+            ),
+          ), //Fin Container
+        )); //Fin de MaterialApp
+  } //Fin de Widget
+
+  Widget _items(String url, String producto) {
+    return Container(
+      padding: EdgeInsets.only(top: 5.0, right: 10.0, left: 10.0),
+      child: Card(
+        color: Colors.white54,
+        elevation: 10.0,
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: <Widget>[
- 
-            _crearContacto(context),
-            _crearContacto(context),
-            _crearContacto(context),
-            _crearContacto(context),
-            _crearContacto(context),
-             _crearContacto(context)
- 
+            Container(
+                margin: EdgeInsets.only(left: 1.0),
+                padding: EdgeInsets.only(left: 0.5),
+                child: ListTile(
+                  contentPadding: EdgeInsets.only(left: 0.2),
+                  leading: CircleAvatar(
+                    backgroundColor: Colors.white,
+                    backgroundImage: NetworkImage(url),
+                    maxRadius: 35.0,
+                  ),
+                  title: Text(producto, style: TextStyle(fontWeight: FontWeight.bold, fontSize: 12.0)),
+                  subtitle: Text('SSD de 256 GB en buen estado', style: TextStyle(fontSize: 9.0)),
+                  trailing: Icon(
+                    Icons.arrow_forward_ios,
+                    color: Colors.white,
+                  ),
+                ))
           ],
         ),
       ),
     );
   }
- 
- Widget  _crearContacto(BuildContext context) {
- 
-   return Row(
-     children: <Widget>[
- 
-       Container(
-         height: 70,
-         width: 70,
-         child: Center(
-           placeholder: AssetImage('assets/card.gif'),
-               image: NetworkImage('https://hipertextual.com/files/2019/09/hipertextual-the-legend-of-zelda-links-awakening-2019999870.jpg'),
-         ),
-       ),
- 
-       Padding(
-         padding: EdgeInsets.all(8),
-         child: Column(
-           children: <Widget>[
- 
-             Text('837363763736', style: Theme.of(context).textTheme.subtitle1,),
-             SizedBox(height: 5,),
-             Text('Gerardo Ramos', style: Theme.of(context).textTheme.subtitle2)
- 
-           ],
-         ),
-       )
- 
-     ],
-   );
- 
- }
-}
+} //Fin de MiTarjetaApp
