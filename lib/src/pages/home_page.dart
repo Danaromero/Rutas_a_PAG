@@ -12,7 +12,7 @@ class HomePage extends StatelessWidget {
           
         ),
         ),
-        backgroundColor: Colors.accents,
+        backgroundColor: Colors.greenAccent,
       ),
       body: ListView(
         children: <Widget>[
