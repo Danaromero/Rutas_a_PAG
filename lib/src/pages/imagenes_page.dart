@@ -18,6 +18,31 @@ class ImagenesPage extends StatelessWidget {
                 placeholder: AssetImage('assets/loading.gif'),
                 image: NetworkImage('https://raw.githubusercontent.com/Danaromero/Mis_Imagenes_Romero/main/vacunas-consejos-peru.jpg'),
               ),
+              padding: EdgeInsets.all(20),
+              FadeInImage(
+                placeholder: AssetImage('assets/loading.gif'),
+                image: NetworkImage('https://raw.githubusercontent.com/Danaromero/Mis_Imagenes_Romero/main/vacunas-consejos-peru.jpg'),
+              ),
+              FadeInImage(
+                placeholder: AssetImage('assets/loading.gif'),
+                image: NetworkImage('https://raw.githubusercontent.com/Danaromero/Mis_Imagenes_Romero/main/vacunas-consejos-peru.jpg'),
+              ),
+              FadeInImage(
+                placeholder: AssetImage('assets/loading.gif'),
+                image: NetworkImage('https://raw.githubusercontent.com/Danaromero/Mis_Imagenes_Romero/main/vacunas-consejos-peru.jpg'),
+              ),
+              FadeInImage(
+                placeholder: AssetImage('assets/loading.gif'),
+                image: NetworkImage('https://raw.githubusercontent.com/Danaromero/Mis_Imagenes_Romero/main/vacunas-consejos-peru.jpg'),
+              ),
+              FadeInImage(
+                placeholder: AssetImage('assets/loading.gif'),
+                image: NetworkImage('https://raw.githubusercontent.com/Danaromero/Mis_Imagenes_Romero/main/vacunas-consejos-peru.jpg'),
+              ),
+              FadeInImage(
+                placeholder: AssetImage('assets/loading.gif'),
+                image: NetworkImage('https://raw.githubusercontent.com/Danaromero/Mis_Imagenes_Romero/main/vacunas-consejos-peru.jpg'),
+              ),
               FadeInImage(
                 placeholder: AssetImage('assets/loading.gif'),
                 image: NetworkImage('https://raw.githubusercontent.com/Danaromero/Mis_Imagenes_Romero/main/vacunas-consejos-peru.jpg'),
