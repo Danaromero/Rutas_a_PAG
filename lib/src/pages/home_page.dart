@@ -11,7 +11,7 @@ class HomePage extends StatelessWidget {
           color: Colors.black,
           decoration: TextDecoration.underline,
          
-          decorationStyle: TextDecorationStyle.double,
+          decorationStyle: TextDecorationStyle.solid,
         ),
         ),
         backgroundColor: Colors.black12,
