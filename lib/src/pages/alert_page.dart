@@ -5,57 +5,26 @@ class AlertPage extends StatelessWidget {
   final GlobalKey<ScaffoldState> key = new GlobalKey<ScaffoldState>();
  
   @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      key: key,
-      appBar: AppBar(
-        centerTitle: true,
-        title: Text('Alertas', style: TextStyle(fontWeight: FontWeight.bold)),
-        backgroundColor: Colors.pink,
-      ),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-          children: <Widget>[
- 
-            FlatButton(
-              onPressed: () {
- 
-                showDialog(
-                  
-                  context: context,
-                  builder: (_) => mostrarAlerta2(context)
-                  
-                  );
-              },
-              child: Text('Mostar Alerta'),
-              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-              color: Colors.greenAccent,
-            ),
- 
-             FlatButton(
-              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-              color: Colors.blue,
-              onPressed: () {
- 
-                key.currentState.showSnackBar(
- 
-                  SnackBar(
-                    content: Text('Hola, soy una Snacbar'),
-                  )
- 
-                );
-              },
-              child: Text('Mostar Snackbar'),
-            )
+  Widget _buildAlertDialog() {
+    return AlertDialog(
+      title: Text('Notificaciones'),
+      content:
+          Text("¿Desea recibir notificaciones? Serán muy pocas de verdad :)"),
+      actions: [
+        FlatButton(
+            child: Text("Aceptar"),
+            textColor: Colors.blue,
+            onPressed: () {
+              Navigator.of(context).pop();
+            }),
 
-
-
-
- 
-          ],
-        ),
-      ),
+        FlatButton(
+            child: Text("Cancelar"),
+            textColor: Colors.red,
+            onPressed: () {
+              Navigator.of(context).pop();
+            }),
+      ],
     );
   }
  
