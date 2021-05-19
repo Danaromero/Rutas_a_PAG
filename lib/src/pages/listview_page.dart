@@ -17,37 +17,37 @@ class ListViewPage extends StatelessWidget {
           children: <Widget>[
             Container(
               height: 50,
-              color: Colors.green[100],
+              color: Colors.red[100],
               child: const Center(child: Text('Color 1', style: TextStyle(fontSize: 18, color: Colors.white),)),
             ),
             Container(
               height: 50,
-              color: Colors.green[200],
+              color: Colors.deepOrange[200],
               child: const Center(child: Text('Color 2', style: TextStyle(fontSize: 18, color: Colors.white),)),
             ),
             Container(
               height: 50,
-              color: Colors.green[300],
+              color: Colors.orange[300],
               child: const Center(child: Text('Color 3', style: TextStyle(fontSize: 18, color: Colors.white),)),
             ),
             Container(
               height: 50,
-              color: Colors.green[400],
+              color: Colors.amber[400],
               child: const Center(child: Text('Color 4', style: TextStyle(fontSize: 18, color: Colors.white),)),
             ),
             Container(
               height: 50,
-              color: Colors.green[500],
+              color: Colors.yellow[500],
               child: const Center(child: Text('Color 5', style: TextStyle(fontSize: 18, color: Colors.white),)),
             ),
             Container(
               height: 50,
-              color: Colors.green[600],
+              color: Colors.lime[600],
               child: const Center(child: Text('Color 6', style: TextStyle(fontSize: 18, color: Colors.white),)),
             ),
             Container(
               height: 50,
-              color: Colors.green[700],
+              color: Colors.lightGreen[700],
               child: const Center(child: Text('Color 7', style: TextStyle(fontSize: 18, color: Colors.white),)),
             ),
             Container(
@@ -57,12 +57,32 @@ class ListViewPage extends StatelessWidget {
             ),
             Container(
               height: 50,
-              color: Colors.green[900],
+              color: Colors.teal[900],
               child: const Center(child: Text('Color 9', style: TextStyle(fontSize: 18, color: Colors.white),)),
             ),
             Container(
               height: 50,
-              color: Colors.green[900],
+              color: Colors.lightBlue[900],
+              child: const Center(child: Text('Color 10', style: TextStyle(fontSize: 18, color: Colors.white),)),
+            ),
+            Container(
+              height: 50,
+              color: Colors.blue[900],
+              child: const Center(child: Text('Color 10', style: TextStyle(fontSize: 18, color: Colors.white),)),
+            ),
+            Container(
+              height: 50,
+              color: Colors.indigo[900],
+              child: const Center(child: Text('Color 10', style: TextStyle(fontSize: 18, color: Colors.white),)),
+            ),
+            Container(
+              height: 50,
+              color: Colors.purple[900],
+              child: const Center(child: Text('Color 10', style: TextStyle(fontSize: 18, color: Colors.white),)),
+            ),
+            Container(
+              height: 50,
+              color: Colors.deepPurple[900],
               child: const Center(child: Text('Color 10', style: TextStyle(fontSize: 18, color: Colors.white),)),
             ),
           ],
