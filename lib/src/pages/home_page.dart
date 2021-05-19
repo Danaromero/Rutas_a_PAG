@@ -10,7 +10,7 @@ class HomePage extends StatelessWidget {
         centerTitle: true,
         title: Text('Dana Romero Widgets App',   style: TextStyle(fontWeight: FontWeight.bold),
 ),
-        backgroundColor: Colors.amber,
+        backgroundColor: Colors.teal(),
       ),
     
       body: ListView(
