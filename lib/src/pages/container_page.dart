@@ -19,7 +19,7 @@ class ContainerPage extends StatelessWidget {
         ),
         margin: const EdgeInsets.all(4),
         child: Image.asset('assets/progra.gif'),
-        children: Center(child: Text('Hola soy un texto', style: TextStyle(color: Colors.white),
+        child: Text('Hola soy un texto', style: TextStyle(color: Colors.white),
       ),
         ),
       ),//Fin Body
