@@ -8,7 +8,7 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         centerTitle: true,
         title: Text('Widgets App Romero', style: TextStyle(fontWeight: FontWeight.bold)),
-        backgroundColor: Colors.yellow,
+        backgroundColor: Colors.black87,
       ),
       body: ListView(
         children: <Widget>[
