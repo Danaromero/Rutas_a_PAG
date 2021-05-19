@@ -127,7 +127,7 @@ class CirclePage extends StatelessWidget {
           ),
         ),
         Padding(
-          padding: EdgeInsets.all(50),
+          padding: EdgeInsets.all(5),
           child: Column(
             children: <Widget>[
               Text(
