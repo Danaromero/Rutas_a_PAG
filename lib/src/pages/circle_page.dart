@@ -6,9 +6,7 @@ class CirclePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        centerTitle: true,
-        title: Text('Contactos', style: TextStyle(fontWeight: FontWeight.bold)),
-        backgroundColor: Colors.pink,
+        title: Text('Contactos'),
       ),
       body: Container(
         child: Column(
@@ -37,7 +35,7 @@ class CirclePage extends StatelessWidget {
          height: 70,
          width: 70,
          child: CircleAvatar(
-           child: Image.asset('assets/progra.gif')),
+           child:Image.asset('assets/juarez.png'),),
          ),
        ),
  
@@ -52,7 +50,7 @@ class CirclePage extends StatelessWidget {
  
            ],
          ),
-       ),
+       )
  
      ],
    );
