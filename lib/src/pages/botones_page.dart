@@ -15,7 +15,7 @@ class BotonesPage extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: <Widget>[
               RaisedButton(
-               minWidth: 20.0,
+              
               height: 100.0,
                 elevation: 2,
                 focusElevation: 4,
