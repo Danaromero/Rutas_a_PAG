@@ -7,8 +7,7 @@ import 'package:flutter/material.dart';
 class ListViewPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
+    return Scaffold(
         appBar: AppBar(
         centerTitle: true,
         title: Text('Vista de Lista', style: TextStyle(fontWeight: FontWeight.bold)),
@@ -38,7 +37,7 @@ class ListViewPage extends StatelessWidget {
             ),
           ],
         ),
-      ),
-    );
+      );
+       
   }
 }
