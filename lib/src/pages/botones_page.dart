@@ -16,7 +16,7 @@ class BotonesPage extends StatelessWidget {
             children: <Widget>[
               RaisedButton(
               
-              height: 100.0,
+              
                 elevation: 2,
                 focusElevation: 4,
                 hoverElevation: 4,
