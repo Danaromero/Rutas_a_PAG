@@ -33,7 +33,7 @@ class CirclePage extends StatelessWidget {
           width: 120,
           decoration: BoxDecoration(
             shape: BoxShape.circle,
-            image: DecorationImage(fit: BoxFit.cover, image: AssetImage('assets/camara.png')),
+            image: DecorationImage(fit: BoxFit.cover, image: AssetImage('assets/perfil1.jpeg')),
           ),
         ),
         Padding(
@@ -41,13 +41,13 @@ class CirclePage extends StatelessWidget {
           child: Column(
             children: <Widget>[
               Text(
-                '837363763736',
+                '656-1561-454',
                 style: Theme.of(context).textTheme.subtitle1,
               ),
               SizedBox(
                 height: 5,
               ),
-              Text('Gerardo Ramos', style: Theme.of(context).textTheme.subtitle2)
+              Text('Aurora Alvarez', style: Theme.of(context).textTheme.subtitle2)
             ],
           ),
         )
