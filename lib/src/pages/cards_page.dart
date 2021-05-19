@@ -18,9 +18,9 @@ class CardsPage extends StatelessWidget {
  
               _crearCard1(),
  
-              _crearCard2(),
+              _crearCard3(),
  
-              _crearCard3()
+              _crearCard2()
               
 
 
