@@ -5,15 +5,11 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      theme: new ThemeData(
-        primarySwatch: Colors.lightGreen,
-       
-        ),
       appBar: AppBar(
         centerTitle: true,
         title: Text('Dana Romero Widgets App',   style: TextStyle(fontWeight: FontWeight.bold),
 ),
-       
+       background: Colors.deepOrangeAccent
       ),
         
      
