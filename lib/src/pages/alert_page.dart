@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
  
 class AlertPage extends StatelessWidget {
  
-  final GlobalKey<ScaffoldState> key = new GlobalKey<ScaffoldState>();
  
    Widget _buildCupertinoAlertDialog() {
     return CupertinoAlertDialog(
