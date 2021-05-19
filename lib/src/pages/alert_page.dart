@@ -26,7 +26,7 @@ class AlertPage extends StatelessWidget {
             ),
             FlatButton(
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-              color: Colors.blue,
+              color: Colors.greenAccent[200],
               onPressed: () {
                 key.currentState.showSnackBar(SnackBar(
                   content: Text('Hola, soy una Snacbar'),
@@ -78,13 +78,13 @@ class AlertPage extends StatelessWidget {
           onPressed: () {
             Navigator.pop(context);
           },
-          child: Text('Cancelar'),
+          child: Text('Aceptar'),
         ),
         FlatButton(
           onPressed: () {
             Navigator.pop(context);
           },
-          child: Text('Okay!'),
+          child: Text('Cancelar'),
         )
       ],
     );//Fin Alert Dialog
