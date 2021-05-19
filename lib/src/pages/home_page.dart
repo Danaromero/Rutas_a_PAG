@@ -5,19 +5,20 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
- 
-      appBar: AppBar(
-        centerTitle: true,
-        title: Text('Dana Romero Widgets App',   style: TextStyle(fontWeight: FontWeight.bold),
-),
-       theme: new ThemeData(
+      theme: new ThemeData(
         primarySwatch: Colors.lightGreen,
         primaryColor: const Color(0xFFdca5a5),
         accentColor: const Color(0xFFff2020),
         canvasColor: const Color(0xFFfafafa),
+        ),
+      appBar: AppBar(
+        centerTitle: true,
+        title: Text('Dana Romero Widgets App',   style: TextStyle(fontWeight: FontWeight.bold),
+),
+       
       ),
         
-      ),
+     
     
       body: ListView(
         children: <Widget>[
