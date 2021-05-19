@@ -44,7 +44,7 @@ class CardsPage extends StatelessWidget {
  
             Text('Soy una Card', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),),
             SizedBox(height: 20,),
-            Text('Dolore aliquip exercitation eiusmod elit est incididunt sint mollit aliqua ex. Pariatur ullamco dolore in ad mollit veniam occaecat. Irure sint elit quis minim.')
+            Text('En Flutter un Card no es más que un widget que nos proporciona el aspecto visual de una tarjeta. Crear un card en Flutter se reduce a usar el widget Card() , al cual mediante sus propiedades le daremos el aspecto que queramos.')
  
           ],
         ),
