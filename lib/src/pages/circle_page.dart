@@ -63,7 +63,7 @@ class CirclePage extends StatelessWidget {
           width: 100,
           decoration: BoxDecoration(
             shape: BoxShape.circle,
-            image: DecorationImage(fit: BoxFit.cover, image: AssetImage('assets/camara.png')),
+            image: DecorationImage(fit: BoxFit.cover, image: AssetImage('assets/perfil2.jpeg')),
           ),
         ),
         Padding(
@@ -93,7 +93,7 @@ class CirclePage extends StatelessWidget {
           width: 100,
           decoration: BoxDecoration(
             shape: BoxShape.circle,
-            image: DecorationImage(fit: BoxFit.cover, image: AssetImage('assets/camara.png')),
+            image: DecorationImage(fit: BoxFit.cover, image: AssetImage('assets/perfil3.jpeg')),
           ),
         ),
         Padding(
@@ -123,7 +123,7 @@ class CirclePage extends StatelessWidget {
           width: 100,
           decoration: BoxDecoration(
             shape: BoxShape.circle,
-            image: DecorationImage(fit: BoxFit.cover, image: AssetImage('assets/camara.png')),
+            image: DecorationImage(fit: BoxFit.cover, image: AssetImage('assets/perfil4.jpeg')),
           ),
         ),
         Padding(
@@ -153,7 +153,7 @@ class CirclePage extends StatelessWidget {
           width: 100,
           decoration: BoxDecoration(
             shape: BoxShape.circle,
-            image: DecorationImage(fit: BoxFit.cover, image: AssetImage('assets/camara.png')),
+            image: DecorationImage(fit: BoxFit.cover, image: AssetImage('assets/perfil1.jpeg')),
           ),
         ),
         Padding(
@@ -183,7 +183,7 @@ class CirclePage extends StatelessWidget {
           width: 100,
           decoration: BoxDecoration(
             shape: BoxShape.circle,
-            image: DecorationImage(fit: BoxFit.cover, image: AssetImage('assets/camara.png')),
+            image: DecorationImage(fit: BoxFit.cover, image: AssetImage('assets/perfil6.jpeg')),
           ),
         ),
         Padding(
