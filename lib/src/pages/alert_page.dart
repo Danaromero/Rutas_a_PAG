@@ -44,11 +44,11 @@ class AlertPage extends StatelessWidget {
     return AlertDialog(
       
       title: Text(
-        'Hola',
+        'Hola!!',
         style: TextStyle(color: Colors.white),
         
       ),
-      content: Text('Soy una alerta', style: TextStyle(color: Colors.white)),
+      content: Text('Esta es una alerta :D', style: TextStyle(color: Colors.white)),
       actions: <Widget>[
         FlatButton(
           onPressed: () {
@@ -70,7 +70,7 @@ class AlertPage extends StatelessWidget {
     return AlertDialog(
       title: Text('Hola', style: TextStyle(color: Colors.black)),
       elevation: 2,
-      backgroundColor: Colors.greenAccent,
+      backgroundColor: Colors.greenAccent[200],
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
       content: Text('Soy una alerta', style: TextStyle(color: Colors.white)),
       actions: <Widget>[
