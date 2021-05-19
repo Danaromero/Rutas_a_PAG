@@ -18,28 +18,28 @@ class ListViewPage extends StatelessWidget {
           children: <Widget>[
             Container(
               height: 50,
-              color: Colors.red[100],
-              child: const Center(child: Text('Color 1', style: TextStyle(fontSize: 18, color: Colors.white),)),
+              color: Colors.red[200],
+              child: const Center(child: Text('Color 1', style: TextStyle(fontSize: 18, color: Colors.black),)),
             ),
             Container(
               height: 50,
               color: Colors.deepOrange[200],
-              child: const Center(child: Text('Color 2', style: TextStyle(fontSize: 18, color: Colors.white),)),
+              child: const Center(child: Text('Color 2', style: TextStyle(fontSize: 18, color: Colors.black),)),
             ),
             Container(
               height: 50,
               color: Colors.orange[300],
-              child: const Center(child: Text('Color 3', style: TextStyle(fontSize: 18, color: Colors.white),)),
+              child: const Center(child: Text('Color 3', style: TextStyle(fontSize: 18, color: Colors.black),)),
             ),
             Container(
               height: 50,
               color: Colors.amber[400],
-              child: const Center(child: Text('Color 4', style: TextStyle(fontSize: 18, color: Colors.white),)),
+              child: const Center(child: Text('Color 4', style: TextStyle(fontSize: 18, color: Colors.black),)),
             ),
             Container(
               height: 50,
               color: Colors.yellow[500],
-              child: const Center(child: Text('Color 5', style: TextStyle(fontSize: 18, color: Colors.white),)),
+              child: const Center(child: Text('Color 5', style: TextStyle(fontSize: 18, color: Colors.black),)),
             ),
             Container(
               height: 50,
