@@ -42,6 +42,7 @@ class AlertPage extends StatelessWidget {
 
   Widget mostrarAlerta(BuildContext context) {
     return AlertDialog(
+      centerTitle: true,
       title: Text(
         'Hola',
         style: TextStyle(color: Colors.white),
