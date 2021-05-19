@@ -46,7 +46,7 @@ class AlertPage extends StatelessWidget {
       title: Text(
         'Hola',
         style: TextStyle(color: Colors.white),
-        centerTitle: true,
+        
       ),
       content: Text('Soy una alerta', style: TextStyle(color: Colors.white)),
       actions: <Widget>[
@@ -68,9 +68,9 @@ class AlertPage extends StatelessWidget {
 
   Widget mostrarAlerta2(BuildContext context) {
     return AlertDialog(
-      title: Text('Hola', style: TextStyle(color: Colors.white)),
+      title: Text('Hola', style: TextStyle(color: Colors.black)),
       elevation: 2,
-      backgroundColor: Colors.deepPurple,
+      backgroundColor: Colors.greenAccent,
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
       content: Text('Soy una alerta', style: TextStyle(color: Colors.white)),
       actions: <Widget>[
