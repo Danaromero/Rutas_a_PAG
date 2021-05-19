@@ -9,12 +9,10 @@ class HomePage extends StatelessWidget {
         centerTitle: true,
         title: Text('Widgets App Romero',  style: TextStyle(
           color: Colors.black,
-         decorationColor: Colors.red,
-          decorationStyle: TextDecorationStyle.double,
-          decoration: TextDecoration.underline,
+          fontWeight: FontWeight.bold,
         ),
         ),
-        backgroundColor: Colors.cyanAccent,
+        backgroundColor: Colors.amber,
       ),
       body: ListView(
         children: <Widget>[
