@@ -4,34 +4,26 @@ class AlertPage extends StatelessWidget {
  
   final GlobalKey<ScaffoldState> key = new GlobalKey<ScaffoldState>();
  
- String title;
-  String content;
-  VoidCallback continueCallBack;
+   Widget _buildCupertinoAlertDialog() {
+    return CupertinoAlertDialog(
+      title: Text('Notificaciones'),
+      content:
+          Text("¿Desea recibir notificaciones? Serán muy pocas de verdad :)"),
+      actions: [
+        FlatButton(
+            child: Text("Aceptar"),
+            textColor: Colors.blue,
+            onPressed: () {
+              Navigator.of(context).pop();
+            }),
 
-  BlurryDialog(this.title, this.content, this.continueCallBack);
-  TextStyle textStyle = TextStyle (color: Colors.black);
-
-  @override
-  Widget build(BuildContext context) {
-    return BackdropFilter(
-      filter: ImageFilter.blur(sigmaX: 6, sigmaY: 6),
-      child:  AlertDialog(
-      title: new Text(title,style: textStyle,),
-      content: new Text(content, style: textStyle,),
-      actions: <Widget>[
-        new FlatButton(
-          child: new Text("Continue"),
-           onPressed: () {
-            continueCallBack();
-          },
-        ),
-        new FlatButton(
-          child: Text("Cancel"),
-          onPressed: () {
-            Navigator.of(context).pop();
-          },
-        ),
+        FlatButton(
+            child: Text("Cancelar"),
+            textColor: Colors.red,
+            onPressed: () {
+              Navigator.of(context).pop();
+            }),
       ],
-      ));
+    );
   }
 }
