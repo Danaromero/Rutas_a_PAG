@@ -9,7 +9,7 @@ class HomePage extends StatelessWidget {
         centerTitle: true,
         title: Text('Widgets App Romero',  style: TextStyle(
           color: Colors.black,
-         decorationColor: Colors.grey,
+         decorationColor: Colors.red,
           decorationStyle: TextDecorationStyle.double,
           decoration: TextDecoration.overline,
         ),
