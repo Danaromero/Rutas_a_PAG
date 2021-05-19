@@ -38,7 +38,7 @@ class CirclePage extends StatelessWidget {
         shape: BoxShape.circle,
         image: DecorationImage(
          fit: BoxFit.cover,
-        image: AssetImage('assets/juarez.png')
+        image: AssetImage('assets/camara.png')
  ),
 ),
 
