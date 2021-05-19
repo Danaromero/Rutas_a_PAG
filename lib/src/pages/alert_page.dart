@@ -32,7 +32,7 @@ class AlertPage extends StatelessWidget {
                   content: Text('Hola, soy una Snacbar'),
                 ));
               },
-              child: Text('Mostar Snackbar'),
+              child: Text('Presioname para un Snackbar'),
             )
           ],//Fin WIDGET []
         ),//Fin Column
