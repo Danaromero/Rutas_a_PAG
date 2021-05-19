@@ -59,8 +59,8 @@ class CirclePage extends StatelessWidget {
     return Row(
       children: <Widget>[
         Container(
-          height: 100,
-          width: 100,
+          height: 90,
+          width: 90,
           decoration: BoxDecoration(
             shape: BoxShape.circle,
             image: DecorationImage(fit: BoxFit.cover, image: AssetImage('assets/perfil2.jpeg')),
@@ -89,8 +89,8 @@ class CirclePage extends StatelessWidget {
     return Row(
       children: <Widget>[
         Container(
-          height: 100,
-          width: 100,
+          height: 90,
+          width: 90,
           decoration: BoxDecoration(
             shape: BoxShape.circle,
             image: DecorationImage(fit: BoxFit.cover, image: AssetImage('assets/perfil3.jpeg')),
@@ -119,8 +119,8 @@ class CirclePage extends StatelessWidget {
     return Row(
       children: <Widget>[
         Container(
-          height: 100,
-          width: 100,
+          height: 90,
+          width: 90,
           decoration: BoxDecoration(
             shape: BoxShape.circle,
             image: DecorationImage(fit: BoxFit.cover, image: AssetImage('assets/perfil4.jpeg')),
@@ -149,8 +149,8 @@ class CirclePage extends StatelessWidget {
     return Row(
       children: <Widget>[
         Container(
-          height: 100,
-          width: 100,
+          height: 90,
+          width: 90,
           decoration: BoxDecoration(
             shape: BoxShape.circle,
             image: DecorationImage(fit: BoxFit.cover, image: AssetImage('assets/perfil7.jpeg')),
@@ -179,8 +179,8 @@ class CirclePage extends StatelessWidget {
     return Row(
       children: <Widget>[
         Container(
-          height: 100,
-          width: 100,
+          height: 90,
+          width: 90,
           decoration: BoxDecoration(
             shape: BoxShape.circle,
             image: DecorationImage(fit: BoxFit.cover, image: AssetImage('assets/perfil1.jpeg')),
