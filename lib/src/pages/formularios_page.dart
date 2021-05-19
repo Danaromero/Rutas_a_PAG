@@ -26,7 +26,7 @@ class FormulariosPage extends StatelessWidget {
  
                 FlatButton(
                   onPressed: () {},
-                  color: Colors.blue,
+                  color: Colors.greenAccent[200],
                   child: Text('Enviar', style: TextStyle(color: Colors.white),),
                 ),
                 
@@ -49,7 +49,7 @@ class FormulariosPage extends StatelessWidget {
         decoration: InputDecoration(
  
           labelText: 'Ingresa tu Nombre',
-                  icon: Icon(Icons.account_circle_rounded , color: Colors.pink),
+                  icon: Icon(Icons.account_circle_rounded , color: Colors.blue),
                   border: OutlineInputBorder(borderRadius: BorderRadius.circular(20.0)),
           hintText: 'Nombre'
  
@@ -67,7 +67,7 @@ class FormulariosPage extends StatelessWidget {
         decoration: InputDecoration(
   
                   labelText: 'Ingresa tu Email',
-                  icon: Icon(Icons.edit_rounded, color: Colors.pink),
+                  icon: Icon(Icons.contact_mail_sharp , color: Colors.blue),
                   border: OutlineInputBorder(borderRadius: BorderRadius.circular(20.0)),
  
         ),
@@ -83,7 +83,7 @@ class FormulariosPage extends StatelessWidget {
         obscureText: true,
         decoration: InputDecoration(
                   labelText: 'Ingresa Contraseña',
-                  icon: Icon(Icons.edit_rounded, color: Colors.pink),
+                  icon: Icon(Icons.border_color , color: Colors.blue),
                   border: OutlineInputBorder(borderRadius: BorderRadius.circular(20.0)),
           hintText: 'Password'
  
