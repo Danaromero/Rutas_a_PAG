@@ -27,7 +27,7 @@ class FormulariosPage extends StatelessWidget {
                 FlatButton(
                   onPressed: () {},
                   color: Colors.greenAccent[200],
-                  child: Text('Enviar', style: TextStyle(color: Colors.white),),
+                  child: Text('Enviar', style: TextStyle(color: Colors.black),),
                 ),
                 
 
