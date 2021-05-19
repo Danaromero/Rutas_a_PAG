@@ -21,22 +21,6 @@ class ImagenesPage extends StatelessWidget {
                 placeholder: AssetImage('assets/loading.gif'),
                 image: NetworkImage('https://raw.githubusercontent.com/Danaromero/Mis_Imagenes_Romero/main/6.jpeg'),
               ),
-              FadeInImage(
-                placeholder: AssetImage('assets/loading.gif'),
-                image: NetworkImage('https://raw.githubusercontent.com/Danaromero/Mis_Imagenes_Romero/main/7.jpeg'),
-              ),
-              FadeInImage(
-                placeholder: AssetImage('assets/loading.gif'),
-                image: NetworkImage('https://raw.githubusercontent.com/Danaromero/Mis_Imagenes_Romero/main/3.jpeg'),
-              ),
-              FadeInImage(
-                placeholder: AssetImage('assets/loading.gif'),
-                image: NetworkImage('https://raw.githubusercontent.com/Danaromero/Mis_Imagenes_Romero/main/2.jpeg'),
-              ),
-              FadeInImage(
-                placeholder: AssetImage('assets/loading.gif'),
-                image: NetworkImage('https://raw.githubusercontent.com/Danaromero/Mis_Imagenes_Romero/main/1.jpeg'),
-              ),
             ],
           ),
         ),
