@@ -4,110 +4,42 @@ import 'dart:math';
 import 'package:flutter/material.dart';
  
 class ListViewPage extends StatefulWidget {
- 
- 
-  @override
-  _ListViewPageState createState() => _ListViewPageState();
-}
- 
-class _ListViewPageState extends State<ListViewPage> {
-
-
- 
-  ScrollController _scroll = new ScrollController();
-  List<int> listaNumeros = new List();
- 
-  @override
-  void initState() {
-    // TODO: implement initState
-    super.initState();
-    agregarNumerosRandom();
- 
-    _scroll.addListener(() {
- 
-      if(_scroll.position.pixels == _scroll.position.maxScrollExtent){
-        agregarNumerosRandom();
-      }
- 
-     });
-
-
-
-
-
- 
-  }
- 
-  @override
-  void dispose() {
-    // TODO: implement dispose
-    super.dispose();
- 
-    _scroll.dispose();
- 
-  }
-
-
-
-
-
- 
-  @override
+ @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        centerTitle: true,
-        title: Text('ListView', style: TextStyle(fontWeight: FontWeight.bold)),
-        backgroundColor: Colors.pink,
+    return MaterialApp(
+      title: 'Flutter Demo',
+      theme: ThemeData(
+        primarySwatch: Colors.indigo,
       ),
-      body: RefreshIndicator(
-       onRefresh: obtenerNumerosR,
-        child: ListView.builder(
- 
-          controller: _scroll,
- 
-    
-          itemBuilder: (context, i){
- 
-            return Center(child: Text(listaNumeros[i].toString(), style: TextStyle(fontSize: 50, fontWeight: FontWeight.bold),),);
-          },
-          itemCount: listaNumeros.length,
-          
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('Flutter ListView - googleflutter.com'),
+        ),
+        body: ListView(
+          children: <Widget>[
+            Container(
+              height: 50,
+              color: Colors.purple[600],
+              child: const Center(child: Text('Item 1', style: TextStyle(fontSize: 18, color: Colors.white),)),
+            ),
+            Container(
+              height: 50,
+              color: Colors.purple[500],
+              child: const Center(child: Text('Item 2', style: TextStyle(fontSize: 18, color: Colors.white),)),
+            ),
+            Container(
+              height: 50,
+              color: Colors.purple[400],
+              child: const Center(child: Text('Item 3', style: TextStyle(fontSize: 18, color: Colors.white),)),
+            ),
+            Container(
+              height: 50,
+              color: Colors.purple[300],
+              child: const Center(child: Text('Item 4', style: TextStyle(fontSize: 18, color: Colors.white),)),
+            ),
+          ],
         ),
       ),
     );
-  }
- 
-  void agregarNumerosRandom() {
-    var rng = new Random();
- 
-    for (var i = 0; i < 40; i++) {
- 
-      listaNumeros.add(rng.nextInt(100));
- 
-      setState(() {
-      
-      });
-      
-    }
-
-
- 
-  }
- 
-  Future<Null> obtenerNumerosR() {
- 
-    final duracion = new Duration(seconds: 2);
- 
-    new Timer(duracion, () {
- 
-      listaNumeros.clear();
- 
-      agregarNumerosRandom();
- 
-    });
- 
-    return Future.delayed(duracion);
- 
   }
 }
