@@ -35,7 +35,8 @@ class CirclePage extends StatelessWidget {
          height: 70,
          width: 70,
          child: CircleAvatar(
-           child:Image.asset('assets/juarez.png'))
+           placeholder: AssetImage('assets/card.gif'),
+               image: NetworkImage('https://hipertextual.com/files/2019/09/hipertextual-the-legend-of-zelda-links-awakening-2019999870.jpg'),
          ),
        ),
  
