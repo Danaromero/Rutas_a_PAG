@@ -7,9 +7,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       theme: new ThemeData(
         primarySwatch: Colors.lightGreen,
-        primaryColor: const Color(0xFFdca5a5),
-        accentColor: const Color(0xFFff2020),
-        canvasColor: const Color(0xFFfafafa),
+       
         ),
       appBar: AppBar(
         centerTitle: true,
