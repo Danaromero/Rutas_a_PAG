@@ -15,10 +15,12 @@ class BotonesPage extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: <Widget>[
               RaisedButton(
+                width: 200.0,
+                height: 100.0,
                 elevation: 2,
                 focusElevation: 4,
                 hoverElevation: 4,
-                highlightElevation: 50,
+                highlightElevation: 8,
                 disabledElevation: 0,
                 onPressed: () {},
                 color: Colors.yellow,
