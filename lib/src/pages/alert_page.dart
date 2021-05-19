@@ -10,7 +10,7 @@ class AlertPage extends StatelessWidget {
       appBar: AppBar(
         centerTitle: true,
         title: Text('Alertas', style: TextStyle(fontWeight: FontWeight.bold)),
-        backgroundColor: Colors.pink,
+        backgroundColor: Colors.indigo,
       ),
       body: Center(
         child: Column(
@@ -20,7 +20,7 @@ class AlertPage extends StatelessWidget {
               onPressed: () {
                 showDialog(context: context, builder: (_) => mostrarAlerta2(context));
               },
-              child: Text('Mostar Alerta'),
+              child: Text('Presioname para una Alerta'),
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
               color: Colors.amberAccent,
             ),
