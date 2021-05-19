@@ -8,7 +8,7 @@ class StackPage extends StatelessWidget {
       appBar: AppBar(
         centerTitle: true,
         title: Text('Stack', style: TextStyle(fontWeight: FontWeight.bold)),
-        backgroundColor: Colors.pink,
+        backgroundColor: Colors.indigo,
       ),
  
       body:Container(

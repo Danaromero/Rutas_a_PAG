@@ -8,12 +8,16 @@ class ImagenesPage extends StatelessWidget {
       appBar: AppBar(
         centerTitle: true,
         title: Text('Imagenes', style: TextStyle(fontWeight: FontWeight.bold)),
-        backgroundColor: Colors.pink,
+        backgroundColor: Colors.indigo,
       ),
       body: Center(
         child: Container(
           child: Column(
             children: <Widget>[
+              FadeInImage(
+                placeholder: AssetImage('assets/loading.gif'),
+                image: NetworkImage('https://raw.githubusercontent.com/Danaromero/Mis_Imagenes_Romero/main/vacunas-consejos-peru.jpg'),
+              ),
               FadeInImage(
                 placeholder: AssetImage('assets/loading.gif'),
                 image: NetworkImage('https://raw.githubusercontent.com/Danaromero/Mis_Imagenes_Romero/main/vacunas-consejos-peru.jpg'),
