@@ -44,7 +44,7 @@ class ListViewPage extends StatelessWidget {
             Container(
               height: 50,
               color: Colors.lime[600],
-              child: const Center(child: Text('Color 6', style: TextStyle(fontSize: 18, color: Colors.white),)),
+              child: const Center(child: Text('Color 6', style: TextStyle(fontSize: 18, color: Colors.black54),)),
             ),
             Container(
               height: 50,
