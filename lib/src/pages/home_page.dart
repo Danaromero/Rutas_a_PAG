@@ -7,9 +7,8 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: Text('Dana Romero Widgets App',   style: TextStyle(fontWeight: FontWeight.bold),
-),
-       background: Colors.deepOrangeAccent
+        title: Text('Widgets App Romero', style: TextStyle(fontWeight: FontWeight.bold)),
+        backgroundColor: Colors.deepOrangeAccent,
       ),
         
      
