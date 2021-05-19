@@ -24,11 +24,15 @@ class FormulariosPage extends StatelessWidget {
  
                 _crearInput3(),
  
-                FlatButton(
-                  onPressed: () {},
-                  color: Colors.greenAccent[200],
-                  child: Text('Enviar', style: TextStyle(color: Colors.black),),
-                ),
+               RaisedButton(
+                  color: Colors.blue[200],
+                  onPressed: () => print("Button Pressed"),
+                  child: new Text("Aceptar"),
+                  splashColor: Colors.cyan,
+                  animationDuration: Duration(seconds: 20),
+                  padding: EdgeInsets.all(20.0),
+                  colorBrightness: Brightness.light,
+                ), //Fin RaisedButton
                 
 
 
