@@ -39,7 +39,9 @@ class FormulariosPage extends StatelessWidget {
     );
     
   }
- 
+ new Padding(
+              padding: const EdgeInsets.symmetric(vertical: 10.0),
+            ),
   Widget _crearInput1() {
  
     return Container(
