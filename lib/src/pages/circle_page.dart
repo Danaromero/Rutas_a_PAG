@@ -37,7 +37,7 @@ class CirclePage extends StatelessWidget {
          height: 70,
          width: 70,
          child: CircleAvatar(
-           child: Image.asset('assets/progra.gif'),),
+           child: Image.asset('assets/progra.gif')),
          ),
        ),
  
