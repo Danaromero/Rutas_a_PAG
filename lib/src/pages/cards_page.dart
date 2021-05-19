@@ -57,7 +57,7 @@ class CardsPage extends StatelessWidget {
  
     return Card(
       elevation: 5,
-      color: Colors.grey[200],
+      color: Colors.grey,
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
  
       child: Container(
