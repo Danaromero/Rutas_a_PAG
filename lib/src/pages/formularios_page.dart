@@ -28,7 +28,8 @@ class FormulariosPage extends StatelessWidget {
                   onPressed: () {},
                   color: Colors.blue,
                   child: Text('Enviar', style: TextStyle(color: Colors.white),),
-                )
+                ),
+                padding: const EdgeInsets.symmetric(vertical: 10.0),
 
 
  
@@ -41,9 +42,7 @@ class FormulariosPage extends StatelessWidget {
   }
  
   Widget _crearInput1() {
- new Padding(
-              padding: const EdgeInsets.symmetric(vertical: 10.0),
-            ),
+ 
     return Container(
       padding: EdgeInsets.all(15),
       child: TextFormField(
