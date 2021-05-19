@@ -35,7 +35,7 @@ class CirclePage extends StatelessWidget {
          height: 70,
          width: 70,
          child: CircleAvatar(
-           child:Image.asset('assets/juarez.png'),),
+           child:Image.asset('assets/juarez.png'))
          ),
        ),
  
