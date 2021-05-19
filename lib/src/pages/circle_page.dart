@@ -4,11 +4,18 @@ class CirclePage extends StatelessWidget {
  
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('Contactos'),
-      ),
-      body: Container(
+    return MaterialApp(
+        debugShowCheckedModeBanner: false,
+        theme: ThemeData(primarySwatch: Colors.pink),
+        home: Scaffold(
+          appBar: AppBar( 
+            
+            title: Text('Tarjetas de Dana Romero'),
+            actions: <Widget>[
+              IconButton(icon: Icon(Icons.add_a_photo), onPressed: () {}),
+            ], //Fin Widget[]
+          ),
+          body: Container(
             child: ListView(
               children: <Widget>[
                 _items("https://raw.githubusercontent.com/Danaromero/Mis_Imagenes_Romero/main/dada.jpg", "Disco Duro"),
