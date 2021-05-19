@@ -65,26 +65,6 @@ class ListViewPage extends StatelessWidget {
               color: Colors.lightBlue[900],
               child: const Center(child: Text('Color 10', style: TextStyle(fontSize: 18, color: Colors.white),)),
             ),
-            Container(
-              height: 50,
-              color: Colors.blue[900],
-              child: const Center(child: Text('Color 10', style: TextStyle(fontSize: 18, color: Colors.white),)),
-            ),
-            Container(
-              height: 50,
-              color: Colors.indigo[900],
-              child: const Center(child: Text('Color 10', style: TextStyle(fontSize: 18, color: Colors.white),)),
-            ),
-            Container(
-              height: 50,
-              color: Colors.purple[900],
-              child: const Center(child: Text('Color 10', style: TextStyle(fontSize: 18, color: Colors.white),)),
-            ),
-            Container(
-              height: 50,
-              color: Colors.deepPurple[900],
-              child: const Center(child: Text('Color 10', style: TextStyle(fontSize: 18, color: Colors.white),)),
-            ),
           ],
         ),
       );
