@@ -25,7 +25,7 @@ class FormulariosPage extends StatelessWidget {
                 _crearInput3(),
  
                RaisedButton(
-                  color: Colors.blue[200],
+                  color: Colors..greenAccent[200],
                   onPressed: () => print("Button Pressed"),
                   child: new Text("Aceptar"),
                   splashColor: Colors.cyan,
