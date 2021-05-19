@@ -11,30 +11,59 @@ class ListViewPage extends StatelessWidget {
         appBar: AppBar(
         centerTitle: true,
         title: Text('Vista de Lista', style: TextStyle(fontWeight: FontWeight.bold)),
-        backgroundColor: Colors.pink,
+        backgroundC: Cs.pink,
       ),
         body: ListView(
-          padding: EdgeInsets.all(20),
           children: <Widget>[
             Container(
               height: 50,
-              color: Colors.yellow[200],
-              child: const Center(child: Text('Item 1', style: TextStyle(fontSize: 18, color: Colors.black),)),
+              color: Colors.green[100],
+              child: const Center(child: Text('Color 1', style: TextStyle(fontSize: 18, color: Colors.white),)),
             ),
             Container(
               height: 50,
-              color: Colors.yellow[400],
-              child: const Center(child: Text('Item 2', style: TextStyle(fontSize: 18, color: Colors.black),)),
+              color: Colors.green[200],
+              child: const Center(child: Text('Color 2', style: TextStyle(fontSize: 18, color: Colors.white),)),
             ),
             Container(
               height: 50,
-              color: Colors.yellow[600],
-              child: const Center(child: Text('Item 3', style: TextStyle(fontSize: 18, color: Colors.black),)),
+              color: Colors.green[300],
+              child: const Center(child: Text('Color 3', style: TextStyle(fontSize: 18, color: Colors.white),)),
             ),
             Container(
               height: 50,
-              color: Colors.yellow[800],
-              child: const Center(child: Text('Item 4', style: TextStyle(fontSize: 18, color: Colors.black),)),
+              color: Colors.green[400],
+              child: const Center(child: Text('Color 4', style: TextStyle(fontSize: 18, color: Colors.white),)),
+            ),
+            Container(
+              height: 50,
+              color: Colors.green[500],
+              child: const Center(child: Text('Color 5', style: TextStyle(fontSize: 18, color: Colors.white),)),
+            ),
+            Container(
+              height: 50,
+              color: Colors.green[600],
+              child: const Center(child: Text('Color 6', style: TextStyle(fontSize: 18, color: Colors.white),)),
+            ),
+            Container(
+              height: 50,
+              color: Colors.green[700],
+              child: const Center(child: Text('Color 7', style: TextStyle(fontSize: 18, color: Colors.white),)),
+            ),
+            Container(
+              height: 50,
+              color: Colors.green[800],
+              child: const Center(child: Text('Color 8', style: TextStyle(fontSize: 18, color: Colors.white),)),
+            ),
+            Container(
+              height: 50,
+              color: Colors.green[900],
+              child: const Center(child: Text('Color 9', style: TextStyle(fontSize: 18, color: Colors.white),)),
+            ),
+            Container(
+              height: 50,
+              color: Colors.green[900],
+              child: const Center(child: Text('Color 10', style: TextStyle(fontSize: 18, color: Colors.white),)),
             ),
           ],
         ),
