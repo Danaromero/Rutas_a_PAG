@@ -4,50 +4,34 @@ class AlertPage extends StatelessWidget {
  
   final GlobalKey<ScaffoldState> key = new GlobalKey<ScaffoldState>();
  
- int _counter = 0;
-  String textValue = '?';
+ String title;
+  String content;
+  VoidCallback continueCallBack;
+
+  BlurryDialog(this.title, this.content, this.continueCallBack);
+  TextStyle textStyle = TextStyle (color: Colors.black);
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(widget.title),
-      ),
-      body: Center(
-          child: Text(textValue)
-      ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          _showDialog(context);
-        },
-        child: Icon(Icons.add),
-      ),
-    );
+    return BackdropFilter(
+      filter: ImageFilter.blur(sigmaX: 6, sigmaY: 6),
+      child:  AlertDialog(
+      title: new Text(title,style: textStyle,),
+      content: new Text(content, style: textStyle,),
+      actions: <Widget>[
+        new FlatButton(
+          child: new Text("Continue"),
+           onPressed: () {
+            continueCallBack();
+          },
+        ),
+        new FlatButton(
+          child: Text("Cancel"),
+          onPressed: () {
+            Navigator.of(context).pop();
+          },
+        ),
+      ],
+      ));
   }
-
-  _showDialog(BuildContext ctx) {
-    showDialog(context: ctx,
-        builder: (context) {
-          return AlertDialog(
-              title: Center(
-                  child:Text(
-                      "Alerta!!!")),
-              content: TextField(
-                  decoration: InputDecoration(
-                    hintText: textValue,
-                  ),
-                  onSubmitted: (text){
-                    setState(() {
-                      textValue=text;
-                    });
-
-                    Navigator.pop(ctx);
-                  }));
-        }
-    );
-  }
-
-}
-
-
 }
