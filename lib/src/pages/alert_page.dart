@@ -1,28 +1,29 @@
 import 'package:flutter/material.dart';
  
 class AlertPage extends StatelessWidget {
- 
- 
-   Widget _buildCupertinoAlertDialog() {
-    return CupertinoAlertDialog(
-      title: Text('Notificaciones'),
-      content:
-          Text("¿Desea recibir notificaciones? Serán muy pocas de verdad :)"),
-      actions: [
-        FlatButton(
-            child: Text("Aceptar"),
-            textColor: Colors.blue,
-            onPressed: () {
-              Navigator.of(context).pop();
-            }),
+ const AlertPage({Key? key}) : super(key: key);
 
-        FlatButton(
-            child: Text("Cancelar"),
-            textColor: Colors.red,
-            onPressed: () {
-              Navigator.of(context).pop();
-            }),
-      ],
+  @override
+  Widget build(BuildContext context) {
+    return TextButton(
+      onPressed: () => showDialog<String>(
+        context: context,
+        builder: (BuildContext context) => AlertDialog(
+          title: const Text('AlertDialog Tilte'),
+          content: const Text('AlertDialog description'),
+          actions: <Widget>[
+            TextButton(
+              onPressed: () => Navigator.pop(context, 'Cancel'),
+              child: const Text('Cancel'),
+            ),
+            TextButton(
+              onPressed: () => Navigator.pop(context, 'OK'),
+              child: const Text('OK'),
+            ),
+          ],
+        ),
+      ),
+      child: const Text('Show Dialog'),
     );
   }
 }
