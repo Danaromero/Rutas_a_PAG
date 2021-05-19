@@ -52,7 +52,7 @@ class CirclePage extends StatelessWidget {
  
            ],
          ),
-       )
+       ),
  
      ],
    );
