@@ -18,11 +18,11 @@ class ContainerPage extends StatelessWidget {
           borderRadius: const BorderRadius.all(const Radius.circular(8)),
         ),
         margin: const EdgeInsets.all(4),
-        child: Image.asset('assets/progra.gif'),
         
+        child: Text('Hola soy un texto', style: TextStyle(color: Colors.white),
       ),
         ),
-        child: Text('Hola soy un texto', style: TextStyle(color: Colors.white),
+        
       ),//Fin Body
     );//Fin Scaffold
   }//Fin Widget
