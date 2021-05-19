@@ -21,7 +21,7 @@ class HomePage extends StatelessWidget {
           _crearItem(context, Icons.apps  , 'Mis Botones', 'botones'),
           Divider(),
  
-          _crearItem(context, Icons.calendar_view_day, 'Contenedor', 'container'),
+          _crearItem(context, Icons.view_in_ar, 'Contenedor', 'container'),
           Divider(),
  
           _crearItem(context, Icons.call_to_action, 'Stack', 'stack'),
