@@ -7,12 +7,19 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: Text('Widgets App Romero', style: TextStyle(
-          color: Colors.black,
-          decoration: TextDecoration.underline,
-          decorationColor: Colors.red,
-          decorationStyle: TextDecorationStyle.wavy,
-        )),
+        title: Text('Widgets App Romero',  style: TextStyle(
+    fontSize: 40,
+    foreground: Paint()
+      ..shader = ui.Gradient.linear(
+        const Offset(0, 20),
+        const Offset(150, 20),
+        <Color>[
+          Colors.red,
+          Colors.yellow,
+        ],
+      )
+  ),
+        ),
         backgroundColor: Colors.black12,
       ),
       body: ListView(
