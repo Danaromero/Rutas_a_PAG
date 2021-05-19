@@ -45,7 +45,7 @@ class CirclePage extends StatelessWidget {
                 style: Theme.of(context).textTheme.subtitle2,
               ),
               SizedBox(
-                height: 10,
+                height: 5,
               ),
               Text('656-1561-454', style: Theme.of(context).textTheme.subtitle1)
             ],
@@ -127,7 +127,7 @@ class CirclePage extends StatelessWidget {
           ),
         ),
         Padding(
-          padding: EdgeInsets.all(8),
+          padding: EdgeInsets.all(50),
           child: Column(
             children: <Widget>[
               Text(
