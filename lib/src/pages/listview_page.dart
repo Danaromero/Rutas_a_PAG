@@ -43,22 +43,22 @@ class ListViewPage extends StatelessWidget {
             ),
             Container(
               height: 50,
-              color: Colors.lime[600],
+              color: Colors.lime[650],
               child: const Center(child: Text('Color 6', style: TextStyle(fontSize: 18, color: Colors.black54),)),
             ),
             Container(
               height: 50,
-              color: Colors.lightGreen[700],
+              color: Colors.lightGreen[500],
               child: const Center(child: Text('Color 7', style: TextStyle(fontSize: 18, color: Colors.white),)),
             ),
             Container(
               height: 50,
-              color: Colors.green[800],
+              color: Colors.green[600],
               child: const Center(child: Text('Color 8', style: TextStyle(fontSize: 18, color: Colors.white),)),
             ),
             Container(
               height: 50,
-              color: Colors.teal[900],
+              color: Colors.teal[700],
               child: const Center(child: Text('Color 9', style: TextStyle(fontSize: 18, color: Colors.white),)),
             ),
             Container(
