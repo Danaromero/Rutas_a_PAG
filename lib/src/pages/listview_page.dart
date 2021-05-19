@@ -14,6 +14,7 @@ class ListViewPage extends StatelessWidget {
         backgroundColor: Colors.pink,
       ),
         body: ListView(
+          padding: EdgeInsets.all(20),
           children: <Widget>[
             Container(
               height: 50,
