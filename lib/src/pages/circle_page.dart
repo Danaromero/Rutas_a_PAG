@@ -6,15 +6,11 @@ class CirclePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
-        theme: ThemeData(primarySwatch: Colors.pink),
-        home: Scaffold(
-          appBar: AppBar( 
-            
-            title: Text('Tarjetas de Dana Romero'),
-            actions: <Widget>[
-              IconButton(icon: Icon(Icons.add_a_photo), onPressed: () {}),
-            ], //Fin Widget[]
-          ),
+        appBar: AppBar(
+        centerTitle: true,
+        title: Text('Contenedor', style: TextStyle(fontWeight: FontWeight.bold)),
+        backgroundColor: Colors.pink,
+      ),
           body: Container(
             child: ListView(
               children: <Widget>[
