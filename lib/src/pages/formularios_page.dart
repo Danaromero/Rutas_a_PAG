@@ -47,7 +47,9 @@ class FormulariosPage extends StatelessWidget {
       child: TextFormField(
         decoration: InputDecoration(
  
-          labelText: 'Nombre Completo',
+          labelText: 'Ingresa tu Nombre',
+                  icon: Icon(Icons.edit_rounded, color: Colors.pink),
+                  border: OutlineInputBorder(borderRadius: BorderRadius.circular(20.0)),
           hintText: 'Nombre'
  
         ),
@@ -63,7 +65,7 @@ class FormulariosPage extends StatelessWidget {
         obscureText: true,
         decoration: InputDecoration(
   
-                  labelText: 'Ingresa la Marca del Auto',
+                  labelText: 'Ingresa tu Email',
                   icon: Icon(Icons.edit_rounded, color: Colors.pink),
                   border: OutlineInputBorder(borderRadius: BorderRadius.circular(20.0)),
  
@@ -79,8 +81,9 @@ class FormulariosPage extends StatelessWidget {
       child: TextFormField(
         obscureText: true,
         decoration: InputDecoration(
- 
-          labelText: 'Password',
+                  labelText: 'Ingresa Contraseña',
+                  icon: Icon(Icons.edit_rounded, color: Colors.pink),
+                  border: OutlineInputBorder(borderRadius: BorderRadius.circular(20.0)),
           hintText: 'Password'
  
         ),
