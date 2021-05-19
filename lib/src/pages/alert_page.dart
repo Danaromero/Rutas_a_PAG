@@ -72,7 +72,7 @@ class AlertPage extends StatelessWidget {
       elevation: 2,
       backgroundColor: Colors.greenAccent[200],
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-      content: Text('Soy una alerta', style: TextStyle(color: Colors.white)),
+      content: Text('Soy una alerta', style: TextStyle(color: Colors.black54)),
       actions: <Widget>[
         FlatButton(
           onPressed: () {
