@@ -70,7 +70,7 @@ class AlertPage extends StatelessWidget {
     return AlertDialog(
       title: Text('Hola', style: TextStyle(color: Colors.black)),
       elevation: 2,
-      backgroundColor: Colors.green[100],
+      backgroundColor: Colors.yellow,
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
       content: Text('Soy una alerta', style: TextStyle(color: Colors.black54)),
       actions: <Widget>[
