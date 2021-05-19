@@ -62,10 +62,10 @@ class FormulariosPage extends StatelessWidget {
       child: TextFormField(
         obscureText: true,
         decoration: InputDecoration(
- 
-          labelText: 'Email',
-          icon: Icon(Icons.email),
-          hintText: 'Email'
+  
+                  labelText: 'Ingresa la Marca del Auto',
+                  icon: Icon(Icons.edit_rounded, color: Colors.pink),
+                  border: OutlineInputBorder(borderRadius: BorderRadius.circular(20.0)),
  
         ),
       ),
