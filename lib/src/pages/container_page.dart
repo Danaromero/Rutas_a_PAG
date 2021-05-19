@@ -21,8 +21,8 @@ class ContainerPage extends StatelessWidget {
         child: Image.asset('assets/progra.gif'),
         
       ),
-      child: Text('Hola soy un texto', style: TextStyle(color: Colors.white),
         ),
+        child: Text('Hola soy un texto', style: TextStyle(color: Colors.white),
       ),//Fin Body
     );//Fin Scaffold
   }//Fin Widget
