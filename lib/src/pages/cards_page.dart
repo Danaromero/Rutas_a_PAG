@@ -8,7 +8,7 @@ class CardsPage extends StatelessWidget {
       appBar: AppBar(
         centerTitle: true,
         title: Text('Cards', style: TextStyle(fontWeight: FontWeight.bold)),
-        backgroundColor: Colors.pink,
+        backgroundColor: Colors.indigo,
       ),
       body: SingleChildScrollView(
         padding: EdgeInsets.all(20),
@@ -65,7 +65,7 @@ class CardsPage extends StatelessWidget {
         child: Column(
           children: <Widget>[
  
-            Text('¿Cómo se crea?', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20, color: Colors.white),),
+            Text('¿Cómo se crea?', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20, color: Colors.green),),
             SizedBox(height: 20,),
             Text('La creación de tarjetas en Flutter es muy simple. Solo necesitamos llamar al constructor de la tarjeta y luego pasar un widget como propiedad secundaria para mostrar el contenido y la acción dentro de la tarjeta.',
             style: TextStyle(color: Colors.white),
