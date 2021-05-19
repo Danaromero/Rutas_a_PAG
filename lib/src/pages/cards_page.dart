@@ -93,7 +93,7 @@ class CardsPage extends StatelessWidget {
            ClipRRect(
              borderRadius: BorderRadius.only(topRight: Radius.circular(20), topLeft: Radius.circular(20)),
              child: FadeInImage(
-               placeholder: AssetImage('assets/loading.gif'),
+               placeholder: AssetImage('assets/card.gif'),
                image: NetworkImage('https://hipertextual.com/files/2019/09/hipertextual-the-legend-of-zelda-links-awakening-2019999870.jpg'),
              ),
            ),
