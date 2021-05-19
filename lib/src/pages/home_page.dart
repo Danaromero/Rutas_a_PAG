@@ -21,26 +21,26 @@ class HomePage extends StatelessWidget {
           _crearItem(context, Icons.apps  , 'Mis Botones', 'botones'),
           Divider(),
  
-          _crearItem(context, Icons.view_in_ar, 'Contenedor', 'container'),
+          _crearItem(context, Icons.view_in_ar, 'Mi Contenedor', 'container'),
           Divider(),
  
-          _crearItem(context, Icons.call_to_action, 'Stack', 'stack'),
+          _crearItem(context, Icons.batch_prediction, 'Apilar', 'stack'),
           Divider(),
  
-          _crearItem(context, Icons.image, 'Imagenes', 'image'),
+          _crearItem(context, Icons.add_a_photo, 'Mis Imagenes', 'image'),
           Divider(),
-          _crearItem(context, Icons.library_books, 'Cards', 'cards'),
+          _crearItem(context, Icons.style, 'Mis Cards', 'cards'),
           Divider(),
-          _crearItem(context, Icons.account_circle, 'Circle Avatar', 'circle'),
-          Divider(),
- 
-          _crearItem(context, Icons.add_alert, 'Alert & Snackbar', 'alert'),
+          _crearItem(context, Icons.people_alt, 'Contactos', 'circle'),
           Divider(),
  
-          _crearItem(context, Icons.format_align_center, 'Formularios', 'form'),
+          _crearItem(context, Icons.campaign, 'Alert y Snackbar', 'alert'),
           Divider(),
  
-          _crearItem(context, Icons.list, 'ListView ', 'list'),
+          _crearItem(context, Icons.dns, 'Formulario', 'form'),
+          Divider(),
+ 
+          _crearItem(context, Icons.format_list_numbered, 'ListView ', 'list'),
           Divider(),
           
           
