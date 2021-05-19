@@ -7,7 +7,7 @@ class CirclePage extends StatelessWidget {
       appBar: AppBar(
         centerTitle: true,
         title: Text('Contactos', style: TextStyle(fontWeight: FontWeight.bold)),
-        backgroundColor: Colors.pink,
+        backgroundColor: Colors.indigo,
       ),
       body: Container(
         child: Column(
