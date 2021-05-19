@@ -11,9 +11,6 @@ class CirclePage extends StatelessWidget {
           appBar: AppBar( 
             
             title: Text('Tarjetas de Dana Romero'),
-            actions: <Widget>[
-              IconButton(icon: Icon(Icons.add_a_photo), onPressed: () {}),
-            ], //Fin Widget[]
           ),
           body: Container(
             child: ListView(
