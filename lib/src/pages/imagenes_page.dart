@@ -11,9 +11,10 @@ class ImagenesPage extends StatelessWidget {
         backgroundColor: Colors.indigo,
       ),
       body: Center(
-        padding: EdgeInsets.all(20),
+        
         child: Container(
           child: Column(
+            padding: EdgeInsets.all(20),
             children: <Widget>[
               FadeInImage(
                 placeholder: AssetImage('assets/loading.gif'),
