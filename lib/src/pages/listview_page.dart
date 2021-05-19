@@ -8,14 +8,12 @@ class ListViewPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.indigo,
-      ),
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Flutter ListView - googleflutter.com'),
-        ),
+        centerTitle: true,
+        title: Text('Vista de Lista', style: TextStyle(fontWeight: FontWeight.bold)),
+        backgroundColor: Colors.pink,
+      ),
         body: ListView(
           children: <Widget>[
             Container(
