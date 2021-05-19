@@ -9,8 +9,8 @@ class CirclePage extends StatelessWidget {
         theme: ThemeData(primarySwatch: Colors.pink),
         home: Scaffold(
           appBar: AppBar( 
-            
-            title: Text('Tarjetas de Dana Romero'),
+           centerTitle: true,
+        title: Text('Contactos de Dana', style: TextStyle(fontWeight: FontWeight.bold)),
           ),
           body: Container(
             child: ListView(
