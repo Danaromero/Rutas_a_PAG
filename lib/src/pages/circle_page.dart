@@ -72,12 +72,12 @@ class CirclePage extends StatelessWidget {
             children: <Widget>[
               Text(
                 '837363763736',
-                style: Theme.of(context).textTheme.subtitle1,
+                style: Theme.of(context).textTheme.subtitle2,
               ),
               SizedBox(
                 height: 5,
               ),
-              Text('Gerardo Ramos', style: Theme.of(context).textTheme.subtitle2)
+              Text('Gerardo Ramos', style: Theme.of(context).textTheme.subtitle1)
             ],
           ),
         )
