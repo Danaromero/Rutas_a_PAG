@@ -11,13 +11,14 @@ class ImagenesPage extends StatelessWidget {
         backgroundColor: Colors.indigo,
       ),
       body: Center(
+        padding: EdgeInsets.all(20),
         child: Container(
           child: Column(
             children: <Widget>[
               FadeInImage(
                 placeholder: AssetImage('assets/loading.gif'),
                 image: NetworkImage('https://raw.githubusercontent.com/Danaromero/Mis_Imagenes_Romero/main/vacunas-consejos-peru.jpg'),
-              padding: EdgeInsets.all(20),
+              
               ),
               
               FadeInImage(
