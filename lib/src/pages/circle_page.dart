@@ -29,8 +29,8 @@ class CirclePage extends StatelessWidget {
     return Row(
       children: <Widget>[
         Container(
-          height: 120,
-          width: 120,
+          height: 100,
+          width: 100,
           decoration: BoxDecoration(
             shape: BoxShape.circle,
             image: DecorationImage(fit: BoxFit.cover, image: AssetImage('assets/perfil1.jpeg')),
