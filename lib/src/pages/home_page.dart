@@ -62,7 +62,7 @@ class HomePage extends StatelessWidget {
              tileColor: Colors.white10,
         selectedTileColor: Colors.greenAccent,
 
-            leading: Icon(icon, color: Colors.indigo),
+            leading: Icon(icon, color: Colors.blue),
 
 
 
