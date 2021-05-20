@@ -17,7 +17,7 @@ class FormulariosPage extends StatelessWidget {
             children: <Widget>[
  
               _crearInput1(),
-              SizedBox(height: 20,),
+              SizedBox(height: 50,),
                 _crearInput2(),
  
                    SizedBox(height: 20,),
@@ -28,7 +28,7 @@ class FormulariosPage extends StatelessWidget {
                   color: Colors.greenAccent[200],
                   onPressed: () => print("Button Pressed"),
                   child: new Text("Aceptar"),
-                  splashColor: Colors.cyan,
+                  splashColor: Colors.blue,
                   animationDuration: Duration(seconds: 20),
                   padding: EdgeInsets.all(20.0),
                   colorBrightness: Brightness.light,
