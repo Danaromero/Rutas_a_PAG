@@ -11,7 +11,7 @@ class ListViewPage extends StatelessWidget {
         appBar: AppBar(
         centerTitle: true,
         title: Text('Vista de Lista', style: TextStyle(fontWeight: FontWeight.bold)),
-        backgroundColor: Colors.pink,
+        backgroundColor: Colors.indigo,
       ),
         body: ListView(
           padding: EdgeInsets.all(20),
