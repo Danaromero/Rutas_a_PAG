@@ -9,15 +9,16 @@ class FormulariosPage extends StatelessWidget {
       appBar: AppBar(
         centerTitle: true,
         title: Text('Formularios', style: TextStyle(fontWeight: FontWeight.bold)),
-        backgroundColor: Colors.pink,
+        backgroundColor: Colors.indigo,
       ),
       body: SingleChildScrollView(
         child: Form(
           child: Column(
             children: <Widget>[
+              SizedBox(height: 20,),
  
               _crearInput1(),
-              SizedBox(height: 50,),
+              SizedBox(height: 20,),
                 _crearInput2(),
  
                    SizedBox(height: 20,),
